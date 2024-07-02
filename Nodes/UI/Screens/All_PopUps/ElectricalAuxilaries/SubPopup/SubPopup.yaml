@@ -2883,19 +2883,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
       - Name: Label9
         Type: TextBox
         Children:
@@ -2903,19 +2890,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -2945,19 +2919,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
       - Name: Label2
         Type: TextBox
         Children:
@@ -2965,19 +2926,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
       - Name: Label3
         Type: TextBox
         Children:
@@ -2985,19 +2933,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
       - Name: Label15
         Type: TextBox
         Children:
@@ -3005,19 +2940,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
       - Name: Label16
         Type: TextBox
         Children:
@@ -3025,19 +2947,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -3577,19 +3486,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
       - Name: Label9
         Type: TextBox
         Children:
@@ -3597,19 +3493,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -3639,19 +3522,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
       - Name: Label2
         Type: TextBox
         Children:
@@ -3659,19 +3529,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
       - Name: Label3
         Type: TextBox
         Children:
@@ -3679,19 +3536,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
       - Name: Label15
         Type: TextBox
         Children:
@@ -3699,19 +3543,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
       - Name: Label16
         Type: TextBox
         Children:
@@ -3719,19 +3550,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -4271,19 +4089,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
       - Name: Label9
         Type: TextBox
         Children:
@@ -4291,19 +4096,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -4333,19 +4125,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
       - Name: Label2
         Type: TextBox
         Children:
@@ -4353,19 +4132,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
       - Name: Label3
         Type: TextBox
         Children:
@@ -4373,19 +4139,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
       - Name: Label15
         Type: TextBox
         Children:
@@ -4393,19 +4146,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
       - Name: Label16
         Type: TextBox
         Children:
@@ -4413,19 +4153,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -4965,19 +4692,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
       - Name: Label9
         Type: TextBox
         Children:
@@ -4985,19 +4699,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -5027,19 +4728,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
       - Name: Label2
         Type: TextBox
         Children:
@@ -5047,19 +4735,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
       - Name: Label3
         Type: TextBox
         Children:
@@ -5067,19 +4742,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
       - Name: Label15
         Type: TextBox
         Children:
@@ -5087,19 +4749,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
       - Name: Label16
         Type: TextBox
         Children:
@@ -5107,19 +4756,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -5659,19 +5295,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
       - Name: Label9
         Type: TextBox
         Children:
@@ -5679,19 +5302,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -5721,19 +5331,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
       - Name: Label2
         Type: TextBox
         Children:
@@ -5741,19 +5338,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
       - Name: Label3
         Type: TextBox
         Children:
@@ -5761,19 +5345,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
       - Name: Label15
         Type: TextBox
         Children:
@@ -5781,19 +5352,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
       - Name: Label16
         Type: TextBox
         Children:
@@ -5801,19 +5359,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -6353,19 +5898,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
       - Name: Label9
         Type: TextBox
         Children:
@@ -6373,19 +5905,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -6415,19 +5934,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
       - Name: Label2
         Type: TextBox
         Children:
@@ -6435,19 +5941,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
       - Name: Label3
         Type: TextBox
         Children:
@@ -6455,19 +5948,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
       - Name: Label15
         Type: TextBox
         Children:
@@ -6475,19 +5955,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
       - Name: Label16
         Type: TextBox
         Children:
@@ -6495,19 +5962,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -7047,19 +6501,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
       - Name: Label9
         Type: TextBox
         Children:
@@ -7067,19 +6508,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -7109,19 +6537,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
       - Name: Label2
         Type: TextBox
         Children:
@@ -7129,19 +6544,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
       - Name: Label3
         Type: TextBox
         Children:
@@ -7149,19 +6551,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
       - Name: Label15
         Type: TextBox
         Children:
@@ -7169,19 +6558,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
       - Name: Label16
         Type: TextBox
         Children:
@@ -7189,19 +6565,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -7741,19 +7104,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
       - Name: Label9
         Type: TextBox
         Children:
@@ -7761,19 +7111,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -7803,19 +7140,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
       - Name: Label2
         Type: TextBox
         Children:
@@ -7823,19 +7147,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
       - Name: Label3
         Type: TextBox
         Children:
@@ -7843,19 +7154,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
       - Name: Label15
         Type: TextBox
         Children:
@@ -7863,19 +7161,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
       - Name: Label16
         Type: TextBox
         Children:
@@ -7883,19 +7168,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -8435,19 +7707,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
       - Name: Label9
         Type: TextBox
         Children:
@@ -8455,19 +7714,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -8497,19 +7743,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
       - Name: Label2
         Type: TextBox
         Children:
@@ -8517,19 +7750,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
       - Name: Label3
         Type: TextBox
         Children:
@@ -8537,19 +7757,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
       - Name: Label15
         Type: TextBox
         Children:
@@ -8557,19 +7764,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
       - Name: Label16
         Type: TextBox
         Children:
@@ -8577,19 +7771,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -9129,19 +8310,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
       - Name: Label9
         Type: TextBox
         Children:
@@ -9149,19 +8317,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -9191,19 +8346,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
       - Name: Label2
         Type: TextBox
         Children:
@@ -9211,19 +8353,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
       - Name: Label3
         Type: TextBox
         Children:
@@ -9231,19 +8360,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
       - Name: Label15
         Type: TextBox
         Children:
@@ -9251,19 +8367,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
       - Name: Label16
         Type: TextBox
         Children:
@@ -9271,19 +8374,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -14651,19 +13741,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
       - Name: Label9
         Type: TextBox
         Children:
@@ -14671,19 +13748,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -14713,19 +13777,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
       - Name: Label2
         Type: TextBox
         Children:
@@ -14733,19 +13784,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
       - Name: Label3
         Type: TextBox
         Children:
@@ -14753,19 +13791,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
       - Name: Label15
         Type: TextBox
         Children:
@@ -14773,19 +13798,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
       - Name: Label16
         Type: TextBox
         Children:
@@ -14793,19 +13805,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -15345,19 +14344,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
       - Name: Label9
         Type: TextBox
         Children:
@@ -15365,19 +14351,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -15407,19 +14380,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
       - Name: Label2
         Type: TextBox
         Children:
@@ -15427,19 +14387,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
       - Name: Label3
         Type: TextBox
         Children:
@@ -15447,19 +14394,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
       - Name: Label15
         Type: TextBox
         Children:
@@ -15467,19 +14401,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
       - Name: Label16
         Type: TextBox
         Children:
@@ -15487,19 +14408,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -16039,19 +14947,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
       - Name: Label9
         Type: TextBox
         Children:
@@ -16059,19 +14954,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -16101,19 +14983,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
       - Name: Label2
         Type: TextBox
         Children:
@@ -16121,19 +14990,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
       - Name: Label3
         Type: TextBox
         Children:
@@ -16141,19 +14997,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
       - Name: Label15
         Type: TextBox
         Children:
@@ -16161,19 +15004,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
       - Name: Label16
         Type: TextBox
         Children:
@@ -16181,19 +15011,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -16733,19 +15550,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
       - Name: Label9
         Type: TextBox
         Children:
@@ -16753,19 +15557,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -16795,19 +15586,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
       - Name: Label2
         Type: TextBox
         Children:
@@ -16815,19 +15593,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
       - Name: Label3
         Type: TextBox
         Children:
@@ -16835,19 +15600,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
       - Name: Label15
         Type: TextBox
         Children:
@@ -16855,19 +15607,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
       - Name: Label16
         Type: TextBox
         Children:
@@ -16875,19 +15614,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -17427,19 +16153,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
       - Name: Label9
         Type: TextBox
         Children:
@@ -17447,19 +16160,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -17489,19 +16189,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
       - Name: Label2
         Type: TextBox
         Children:
@@ -17509,19 +16196,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
       - Name: Label3
         Type: TextBox
         Children:
@@ -17529,19 +16203,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
       - Name: Label15
         Type: TextBox
         Children:
@@ -17549,19 +16210,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
       - Name: Label16
         Type: TextBox
         Children:
@@ -17569,19 +16217,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -18121,19 +16756,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
       - Name: Label9
         Type: TextBox
         Children:
@@ -18141,19 +16763,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -18183,19 +16792,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
       - Name: Label2
         Type: TextBox
         Children:
@@ -18203,19 +16799,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
       - Name: Label3
         Type: TextBox
         Children:
@@ -18223,19 +16806,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
       - Name: Label15
         Type: TextBox
         Children:
@@ -18243,19 +16813,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
       - Name: Label16
         Type: TextBox
         Children:
@@ -18263,19 +16820,6 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
       - Name: Checkbox1
         Type: CheckBox
         Children:
