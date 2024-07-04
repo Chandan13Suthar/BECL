@@ -6094,6 +6094,16 @@ Children:
           DataType: LocalizedText
           ModellingRule: Optional
           Value: {"LocaleId":"en-US","Text":"Status"}
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 21.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 663.0
       - Name: Button2
         Type: Button
         Children:
@@ -6179,6 +6189,16 @@ Children:
           DataType: LocalizedText
           ModellingRule: Optional
           Value: {"LocaleId":"en-US","Text":"Sync"}
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 153.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 663.0
       - Name: Button4
         Type: Button
         Children:
@@ -6264,6 +6284,16 @@ Children:
           DataType: LocalizedText
           ModellingRule: Optional
           Value: {"LocaleId":"en-US","Text":"Config"}
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 282.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 663.0
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -6427,6 +6457,11 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 731.0
       - Name: PanelLoader10
         Type: PanelLoader
         Children:
@@ -6452,6 +6487,11 @@ Children:
         - Class: Reference
           Target: ns=3;i=478
           Direction: Forward
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 420.0
   - Name: MoveTarget
     Type: NodePointer
     DataType: NodeId
@@ -6465,6 +6505,11 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 820.0
 - Name: Travel12
   Id: g=43e5cdfc7d02cee88464c2bde1a1b78b
   Supertype: X_PopupBase

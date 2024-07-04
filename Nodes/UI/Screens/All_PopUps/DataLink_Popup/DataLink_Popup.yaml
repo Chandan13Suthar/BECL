@@ -7089,20 +7089,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -7756,7 +7743,165 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: ""
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/LUFFING_STATUS"
+              - Name: Pairs
+                Type: BaseObjectType
+                ModellingRule: None
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "NO MODE SELECT"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "SELECTED"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "AUTO"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: ""
+                - Name: Pair4
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 4
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "LOCAL"
+                - Name: Pair5
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 5
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: ""
+                - Name: Pair6
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 6
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: ""
+                - Name: Pair7
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 7
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "NOT READY"
+                - Name: Pair8
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 8
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: ""
+                - Name: Pair9
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 9
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: ""
+                - Name: Pair10
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 10
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -7829,7 +7974,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/DataLink Popup/DataScreen/LuffingSystem/Main_Ctrl2"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/DataLink Popup/DataScreen/LuffingSystem/Main_Ctrl_Select1"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -8119,7 +8264,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/DataLink Popup/DataScreen/LuffingSystem/Main_Ctrl2"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/DataLink Popup/DataScreen/LuffingSystem/Main_Ctrl_Select1"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -8138,6 +8283,11 @@ Children:
         - Class: Reference
           Target: ns=3;i=478
           Direction: Forward
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 125.0
       - Name: Button4
         Type: Button
         Children:
@@ -8409,20 +8559,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -9075,20 +9212,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -9868,20 +9992,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -10539,20 +10650,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -11205,20 +11303,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -11993,20 +12078,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -21843,20 +21915,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -22569,20 +22628,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -36028,20 +36074,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -36688,20 +36721,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -40129,20 +40149,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -40855,20 +40862,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -56941,20 +56935,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -58668,20 +58649,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -61346,20 +61314,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -69166,20 +69121,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
+            Value: {"LocaleId":"en-US","Text":"######"}
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color

@@ -1889,7 +1889,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -1945,7 +1945,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -2364,7 +2364,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -2420,7 +2420,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -2476,7 +2476,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -2532,7 +2532,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -2588,7 +2588,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -2626,6 +2626,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Warning_Low"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -2658,6 +2669,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Warning_High"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -2690,6 +2712,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Alarm_Low"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -2722,6 +2755,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Alarm_High"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -2754,6 +2798,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Repeat_Alarm"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -2961,122 +3016,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 6.0
-      - Name: Rectangle2
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -12.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 99.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_OK"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle3
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -12.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 149.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Warning"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
       - Name: Label5
         Type: Label
         Children:
@@ -3242,180 +3181,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 300.0
-      - Name: Rectangle4
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -12.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 199.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Warning"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle5
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -12.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 249.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Alarm"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle6
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -12.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 299.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Alarm"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -3423,6 +3188,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_OK"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -3455,6 +3231,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Warning"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -3487,6 +3274,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Warning"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -3519,6 +3317,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Alarm"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -3551,6 +3360,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Alarm"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -5479,7 +5299,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/EnableTime_Low_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/EnableTime_Low_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -5535,7 +5355,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/EnableTime_High_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/EnableTime_High_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -5698,122 +5518,6 @@ Children:
           DataType: String
           ModellingRule: Optional
           Value: "M 0.000000 0.000000 L 40.000000 0.000000"
-      - Name: Rectangle2
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -12.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 172.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Enable_Warning_Low"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle3
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -12.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 206.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Enable_Warning_High"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
       - Name: Label13
         Type: Label
         Children:
@@ -6045,180 +5749,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 330.0
-      - Name: Rectangle4
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -12.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 254.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Enable_Alarm_Low"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle5
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -12.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 286.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Enable_Alarm_High"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle6
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -12.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 329.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Enable_Repeat_Alarm"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
       - Name: Label1
         Type: TextBox
         Children:
@@ -6244,7 +5774,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -6300,7 +5830,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -6356,7 +5886,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -6412,7 +5942,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -6468,7 +5998,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/RepeatTime_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/RepeatTime_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -6506,6 +6036,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Enable_Warning_Low"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -6538,6 +6079,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Enable_Warning_High"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -6570,6 +6122,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Enable_Alarm_Low"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -6602,6 +6165,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Enable_Alarm_High"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -6634,6 +6208,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Enable_Repeat_Alarm"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -6841,122 +6426,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 6.0
-      - Name: Rectangle2
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -22.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 89.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Force_OK"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle3
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -22.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 139.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Force_Low_Warning"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
       - Name: Label5
         Type: Label
         Children:
@@ -7122,180 +6591,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 300.0
-      - Name: Rectangle4
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -22.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 189.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Force_High_Warning"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle5
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -22.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 239.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Force_Low_Alarm"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle6
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: -22.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 289.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Force_High_Alarm"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -7303,6 +6598,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Force_OK"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -7335,6 +6641,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Force_Low_Warning"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -7367,6 +6684,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Force_High_Warning"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -7399,6 +6727,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Force_Low_Alarm"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -7431,6 +6770,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C72_FP/Force_High_Alarm"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -9359,7 +8709,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/EnableTime_Low_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C74_FP/EnableTime_Low_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -9415,7 +8765,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/EnableTime_High_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C74_FP/EnableTime_High_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -9578,122 +8928,6 @@ Children:
           DataType: String
           ModellingRule: Optional
           Value: "M 0.000000 0.000000 L 40.000000 0.000000"
-      - Name: Rectangle2
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 12.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 172.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Enable_Warning_Low"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle3
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 12.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 206.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Enable_Warning_High"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
       - Name: Label13
         Type: Label
         Children:
@@ -9925,180 +9159,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 330.0
-      - Name: Rectangle4
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 12.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 254.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Enable_Alarm_Low"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle5
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 12.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 286.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Enable_Alarm_High"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle6
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 12.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 329.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Enable_Repeat_Alarm"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
       - Name: Label1
         Type: TextBox
         Children:
@@ -10124,7 +9184,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -10180,7 +9240,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -10236,7 +9296,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -10292,7 +9352,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -10348,7 +9408,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/RepeatTime_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/RepeatTime_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -10386,6 +9446,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C74_FP/Enable_Warning_Low"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -10418,6 +9489,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Enable_Warning_High"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -10450,6 +9532,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Enable_Alarm_Low"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -10482,6 +9575,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Enable_Alarm_High"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -10514,6 +9618,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Enable_Repeat_Alarm"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -10721,122 +9836,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 6.0
-      - Name: Rectangle2
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 15.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 100.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Force_OK"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle3
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 15.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 150.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Force_Low_Warning"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
       - Name: Label5
         Type: Label
         Children:
@@ -11002,180 +10001,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 300.0
-      - Name: Rectangle4
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 15.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 200.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Force_High_Warning"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle5
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 15.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 250.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Force_Low_Alarm"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle6
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 15.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 300.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Force_High_Alarm"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -11183,6 +10008,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Force_OK"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -11215,6 +10051,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Force_Low_Warning"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -11247,6 +10094,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Force_High_Warning"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -11279,6 +10137,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Force_Low_Alarm"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -11311,6 +10180,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C73_FP/Force_High_Alarm"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -15753,7 +14633,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/SIG"
             - Name: TrueValue
               Type: BaseDataVariableType
               DataType: Color
@@ -17119,7 +15999,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/EnableTime_Low_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/EnableTime_Low_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -17175,7 +16055,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/EnableTime_High_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/EnableTime_High_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -17338,122 +16218,6 @@ Children:
           DataType: String
           ModellingRule: Optional
           Value: "M 0.000000 0.000000 L 40.000000 0.000000"
-      - Name: Rectangle2
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 8.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 172.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Enable_Warning_Low"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle3
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 8.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 206.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Enable_Warning_High"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
       - Name: Label13
         Type: Label
         Children:
@@ -17685,180 +16449,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 330.0
-      - Name: Rectangle4
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 8.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 254.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Enable_Alarm_Low"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle5
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 8.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 286.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Enable_Alarm_High"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle6
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 8.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 329.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Enable_Repeat_Alarm"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
       - Name: Label1
         Type: TextBox
         Children:
@@ -17884,7 +16474,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -17940,7 +16530,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -17996,7 +16586,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -18052,7 +16642,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -18108,7 +16698,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/RepeatTime_Acc"
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/RepeatTime_Pre"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -18146,6 +16736,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Enable_Warning_Low"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -18178,6 +16779,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Enable_Warning_High"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -18210,6 +16822,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Enable_Alarm_Low"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -18242,6 +16865,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Enable_Alarm_High"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -18274,6 +16908,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Enable_Repeat_Alarm"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -18481,122 +17126,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 6.0
-      - Name: Rectangle2
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 18.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 109.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Force_OK"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle3
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 18.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 159.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Force_Low_Warning"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
       - Name: Label5
         Type: Label
         Children:
@@ -18762,180 +17291,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 300.0
-      - Name: Rectangle4
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 18.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 209.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Force_High_Warning"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle5
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 18.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 259.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Force_Low_Alarm"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
-      - Name: Rectangle6
-        Type: Rectangle
-        Children:
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 18.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 309.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Force_High_Alarm"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#3ef51f"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "#808080"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -18943,6 +17298,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Force_OK"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -18975,6 +17341,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Force_Low_Warning"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -19007,6 +17384,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Force_High_Warning"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -19039,6 +17427,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Force_Low_Alarm"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -19071,6 +17470,17 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C75_FP/Force_High_Alarm"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
