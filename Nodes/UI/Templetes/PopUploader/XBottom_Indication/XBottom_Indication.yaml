@@ -1697,6 +1697,11 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#b3b3b3"
+  - Name: Visible
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: false
 - Name: X_Detail_Parm_1
   Id: g=7de79713ea5ffdd14e6907a53be699e7
   Supertype: Panel

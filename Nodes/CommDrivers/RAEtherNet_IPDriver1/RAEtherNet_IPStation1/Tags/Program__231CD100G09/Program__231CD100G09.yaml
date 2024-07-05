@@ -1,60 +1,6 @@
 Name: 'Program:_231CD100G09'
 Type: FolderType
 Children:
-- Name: BWSR_RE_SL_RT_POS_FBL_POS
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_RE_SL_RT_POS_FBL_POS"
-- Name: BWSR_FBST_ICON
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBST_ICON"
-- Name: BWSR_FBFF07
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBFF07"
-- Name: BWSR_FBFF01
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBFF01"
-- Name: AuxReal0010
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.AuxReal0010"
-- Name: AuxReal0021
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.AuxReal0021"
 - Name: AuxReal0008
   Type: RAEtherNetIPTag
   DataType: Float
@@ -64,7 +10,7 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:_231CD100G09.AuxReal0008"
-- Name: AuxReal0018
+- Name: AuxReal0009
   Type: RAEtherNetIPTag
   DataType: Float
   Value: 0.0
@@ -72,17 +18,8 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Program:_231CD100G09.AuxReal0018"
-- Name: BWSR_FBRE_BCON
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBRE_BCON"
-- Name: BWSR_RE_SL_LT_POS_FBL_POS
+    Value: "Program:_231CD100G09.AuxReal0009"
+- Name: AuxReal0010
   Type: RAEtherNetIPTag
   DataType: Float
   Value: 0.0
@@ -90,7 +27,43 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Program:_231CD100G09.BWSR_RE_SL_LT_POS_FBL_POS"
+    Value: "Program:_231CD100G09.AuxReal0010"
+- Name: AuxReal0011
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.AuxReal0011"
+- Name: AuxReal0012
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.AuxReal0012"
+- Name: AuxReal0013
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.AuxReal0013"
+- Name: AuxReal0014
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.AuxReal0014"
 - Name: AuxReal0015
   Type: RAEtherNetIPTag
   DataType: Float
@@ -100,15 +73,6 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:_231CD100G09.AuxReal0015"
-- Name: BWSR_RE_TR_POS_FBNEW
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_RE_TR_POS_FBNEW"
 - Name: AuxReal0016
   Type: RAEtherNetIPTag
   DataType: Float
@@ -118,15 +82,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:_231CD100G09.AuxReal0016"
-- Name: BWSR_FBFF06
+- Name: AuxReal0017
   Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
+  DataType: Float
+  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBFF06"
+    Value: "Program:_231CD100G09.AuxReal0017"
+- Name: AuxReal0018
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.AuxReal0018"
 - Name: AuxReal0019
   Type: RAEtherNetIPTag
   DataType: Float
@@ -136,7 +109,101 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:_231CD100G09.AuxReal0019"
-- Name: BWSR_FBFF08
+- Name: AuxReal0020
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.AuxReal0020"
+- Name: AuxReal0021
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.AuxReal0021"
+- Name: BWSR_FB
+  Type: AsysSel
+  DataType: AsysSel
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_FB.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_FB.EnableOut"
+  - Name: ENAB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_FB.ENAB"
+  - Name: FCON
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_FB.FCON"
+  - Name: FCOFF
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_FB.FCOFF"
+  - Name: SEL
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_FB.SEL"
+  - Name: SELONS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_FB.SELONS"
+  - Name: SELOFFS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_FB.SELOFFS"
+- Name: BWSR_FBFF01
   Type: RAEtherNetIPTag
   DataType: Boolean
   Value: false
@@ -144,7 +211,34 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBFF08"
+    Value: "Program:_231CD100G09.BWSR_FBFF01"
+- Name: BWSR_FBFF02
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBFF02"
+- Name: BWSR_FBFF03
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBFF03"
+- Name: BWSR_FBFF04
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBFF04"
 - Name: BWSR_FBFF05
   Type: RAEtherNetIPTag
   DataType: Boolean
@@ -154,6 +248,190 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:_231CD100G09.BWSR_FBFF05"
+- Name: BWSR_FBFF06
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBFF06"
+- Name: BWSR_FBFF07
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBFF07"
+- Name: BWSR_FBFF08
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBFF08"
+- Name: BWSR_FBFF09
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBFF09"
+- Name: BWSR_FBONS01_Q
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBONS01_Q"
+- Name: BWSR_FBONS01_SB
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBONS01_SB"
+- Name: BWSR_FBONS02_Q
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBONS02_Q"
+- Name: BWSR_FBONS02_SB
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBONS02_SB"
+- Name: BWSR_FBRE_BCON
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBRE_BCON"
+- Name: BWSR_FBRE_BWON
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBRE_BWON"
+- Name: BWSR_FBRE_TRL
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBRE_TRL"
+- Name: BWSR_FBST_BCON
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBST_BCON"
+- Name: BWSR_FBST_ICON
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBST_ICON"
+- Name: BWSR_FBST_TRL
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBST_TRL"
+- Name: BWSR_FBTIM01
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_FBTIM01.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_FBTIM01.ACC"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_FBTIM01.EN"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_FBTIM01.TT"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_FBTIM01.DN"
+- Name: BWSR_FBYC_RUN
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_FBYC_RUN"
 - Name: BWSR_RE_IND06_FBLF_OK
   Type: RAEtherNetIPTag
   DataType: Boolean
@@ -163,20 +441,38 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:_231CD100G09.BWSR_RE_IND06_FBLF_OK"
+- Name: BWSR_RE_IND06_FBLT_OK
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_RE_IND06_FBLT_OK"
+- Name: BWSR_RE_IND06_FBSL_OK
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_RE_IND06_FBSL_OK"
+- Name: BWSR_RE_PARAM13_FBNEW
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_RE_PARAM13_FBNEW"
 - Name: BWSR_RE_PID_FB
   Type: AsysPID
   DataType: AsysPID
   Children:
-  - Name: AINORM
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.AINORM"
-  - Name: AUTO
+  - Name: EnableIn
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -184,7 +480,43 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.AUTO"
+      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.EnableOut"
+  - Name: PV
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.PV"
+  - Name: PV_OK
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.PV_OK"
+  - Name: PV_TRACK
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.PV_TRACK"
   - Name: AUTO_EN
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -212,25 +544,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:_231CD100G09.BWSR_RE_PID_FB.AUTO_HLC"
-  - Name: CO
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.CO"
-  - Name: CV
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.CV"
-  - Name: EnableIn
+  - Name: MAN_FR
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -238,8 +552,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.EnableIn"
-  - Name: EnableOut
+      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.MAN_FR"
+  - Name: INV
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -247,7 +561,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.EnableOut"
+      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.INV"
   - Name: EXT1_EN
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -275,51 +589,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:_231CD100G09.BWSR_RE_PID_FB.EXT1_SP"
-  - Name: EXT2_FR
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.EXT2_FR"
-  - Name: EXT2_SP
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.EXT2_SP"
-  - Name: EXT_FAULT
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.EXT_FAULT"
-  - Name: EXTPV
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.EXTPV"
-  - Name: EXTPV_EN
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.EXTPV_EN"
   - Name: FR1_FR
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -356,7 +625,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:_231CD100G09.BWSR_RE_PID_FB.FR2_SP"
-  - Name: INV
+  - Name: EXT2_FR
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -364,8 +633,17 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.INV"
-  - Name: MAN_FR
+      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.EXT2_FR"
+  - Name: EXT2_SP
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.EXT2_SP"
+  - Name: EXTPV_EN
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -373,7 +651,25 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.MAN_FR"
+      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.EXTPV_EN"
+  - Name: EXTPV
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.EXTPV"
+  - Name: EXT_FAULT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.EXT_FAULT"
   - Name: PARA_SET1
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -410,7 +706,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:_231CD100G09.BWSR_RE_PID_FB.PARA_SET4"
-  - Name: PV
+  - Name: CV
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
@@ -418,8 +714,17 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.PV"
-  - Name: PV_OK
+      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.CV"
+  - Name: CO
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.CO"
+  - Name: AUTO
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -427,16 +732,16 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.PV_OK"
-  - Name: PV_TRACK
+      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.AUTO"
+  - Name: AINORM
     Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
+    DataType: Float
+    Value: 0.0
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.PV_TRACK"
+      Value: "Program:_231CD100G09.BWSR_RE_PID_FB.AINORM"
   - Name: SPNORM
     Type: RAEtherNetIPTag
     DataType: Float
@@ -446,16 +751,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:_231CD100G09.BWSR_RE_PID_FB.SPNORM"
-- Name: BWSR_FBFF03
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBFF03"
-- Name: AuxReal0020
+- Name: BWSR_RE_SL_LT_POS_FBL_POS
   Type: RAEtherNetIPTag
   DataType: Float
   Value: 0.0
@@ -463,8 +759,8 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Program:_231CD100G09.AuxReal0020"
-- Name: AuxReal0012
+    Value: "Program:_231CD100G09.BWSR_RE_SL_LT_POS_FBL_POS"
+- Name: BWSR_RE_SL_LT_POS_FBR_POS
   Type: RAEtherNetIPTag
   DataType: Float
   Value: 0.0
@@ -472,44 +768,8 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Program:_231CD100G09.AuxReal0012"
-- Name: BWSR_ST_IND03_FBLT_OK
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_ST_IND03_FBLT_OK"
-- Name: _231CD100G09_FBFF01
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09._231CD100G09_FBFF01"
-- Name: BWSR_FBFF09
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBFF09"
-- Name: BWSR_ST_IND03_FBLF_OK
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_ST_IND03_FBLF_OK"
-- Name: BWSR_FBRE_TRL
+    Value: "Program:_231CD100G09.BWSR_RE_SL_LT_POS_FBR_POS"
+- Name: BWSR_RE_SL_RT_POS_FBL_POS
   Type: RAEtherNetIPTag
   DataType: Float
   Value: 0.0
@@ -517,7 +777,25 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBRE_TRL"
+    Value: "Program:_231CD100G09.BWSR_RE_SL_RT_POS_FBL_POS"
+- Name: BWSR_RE_SL_RT_POS_FBR_POS
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_RE_SL_RT_POS_FBR_POS"
+- Name: BWSR_RE_TR_POS_FBNEW
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:_231CD100G09.BWSR_RE_TR_POS_FBNEW"
 - Name: BWSR_ST_IND02_FBADD
   Type: RAEtherNetIPTag
   DataType: Float
@@ -527,92 +805,7 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:_231CD100G09.BWSR_ST_IND02_FBADD"
-- Name: BWSR_RE_IND06_FBLT_OK
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_RE_IND06_FBLT_OK"
-- Name: BWSR_RE_IND06_FBSL_OK
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_RE_IND06_FBSL_OK"
-- Name: FN_57
-  Type: IEC_SEL
-  DataType: IEC_SEL
-  Children:
-  - Name: EnableIn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_57.EnableIn"
-  - Name: EnableOut
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_57.EnableOut"
-  - Name: G
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_57.G"
-  - Name: IN0
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_57.IN0"
-  - Name: IN1
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_57.IN1"
-  - Name: OUT
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_57.OUT"
-- Name: BWSR_FBONS02_SB
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBONS02_SB"
-- Name: AuxReal0017
+- Name: BWSR_ST_IND02_FBSUB
   Type: RAEtherNetIPTag
   DataType: Float
   Value: 0.0
@@ -620,75 +813,8 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Program:_231CD100G09.AuxReal0017"
-- Name: BWSR_FBST_TRL
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBST_TRL"
-- Name: FN_50
-  Type: IEC_SEL
-  DataType: IEC_SEL
-  Children:
-  - Name: EnableIn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_50.EnableIn"
-  - Name: EnableOut
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_50.EnableOut"
-  - Name: G
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_50.G"
-  - Name: IN0
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_50.IN0"
-  - Name: IN1
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_50.IN1"
-  - Name: OUT
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_50.OUT"
-- Name: BWSR_FBONS01_Q
+    Value: "Program:_231CD100G09.BWSR_ST_IND02_FBSUB"
+- Name: BWSR_ST_IND03_FBLF_OK
   Type: RAEtherNetIPTag
   DataType: Boolean
   Value: false
@@ -696,66 +822,8 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBONS01_Q"
-- Name: FN_48
-  Type: IEC_SEL
-  DataType: IEC_SEL
-  Children:
-  - Name: EnableIn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_48.EnableIn"
-  - Name: EnableOut
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_48.EnableOut"
-  - Name: G
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_48.G"
-  - Name: IN0
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_48.IN0"
-  - Name: IN1
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_48.IN1"
-  - Name: OUT
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_48.OUT"
-- Name: BWSR_FBYC_RUN
+    Value: "Program:_231CD100G09.BWSR_ST_IND03_FBLF_OK"
+- Name: BWSR_ST_IND03_FBLT_OK
   Type: RAEtherNetIPTag
   DataType: Boolean
   Value: false
@@ -763,74 +831,16 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBYC_RUN"
-- Name: AuxReal0013
+    Value: "Program:_231CD100G09.BWSR_ST_IND03_FBLT_OK"
+- Name: BWSR_ST_IND03_FBSL_OK
   Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
+  DataType: Boolean
+  Value: false
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Program:_231CD100G09.AuxReal0013"
-- Name: FN_46
-  Type: IEC_SEL
-  DataType: IEC_SEL
-  Children:
-  - Name: EnableIn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_46.EnableIn"
-  - Name: EnableOut
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_46.EnableOut"
-  - Name: G
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_46.G"
-  - Name: IN0
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_46.IN0"
-  - Name: IN1
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_46.IN1"
-  - Name: OUT
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_46.OUT"
+    Value: "Program:_231CD100G09.BWSR_ST_IND03_FBSL_OK"
 - Name: FN_45
   Type: IEC_SEL
   DataType: IEC_SEL
@@ -889,34 +899,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:_231CD100G09.FN_45.OUT"
-- Name: BWSR_FBFF02
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBFF02"
-- Name: BWSR_ST_IND03_FBSL_OK
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_ST_IND03_FBSL_OK"
-- Name: BWSR_RE_PARAM13_FBNEW
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_RE_PARAM13_FBNEW"
-- Name: FN_52
+- Name: FN_46
   Type: IEC_SEL
   DataType: IEC_SEL
   Children:
@@ -928,7 +911,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.FN_52.EnableIn"
+      Value: "Program:_231CD100G09.FN_46.EnableIn"
   - Name: EnableOut
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -937,7 +920,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.FN_52.EnableOut"
+      Value: "Program:_231CD100G09.FN_46.EnableOut"
   - Name: G
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -946,7 +929,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.FN_52.G"
+      Value: "Program:_231CD100G09.FN_46.G"
   - Name: IN0
     Type: RAEtherNetIPTag
     DataType: Float
@@ -955,7 +938,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.FN_52.IN0"
+      Value: "Program:_231CD100G09.FN_46.IN0"
   - Name: IN1
     Type: RAEtherNetIPTag
     DataType: Float
@@ -964,7 +947,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.FN_52.IN1"
+      Value: "Program:_231CD100G09.FN_46.IN1"
   - Name: OUT
     Type: RAEtherNetIPTag
     DataType: Float
@@ -973,262 +956,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.FN_52.OUT"
-- Name: BWSR_RE_SL_RT_POS_FBR_POS
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_RE_SL_RT_POS_FBR_POS"
-- Name: BWSR_FBFF04
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBFF04"
-- Name: BWSR_FBST_BCON
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBST_BCON"
-- Name: AuxReal0009
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.AuxReal0009"
-- Name: FN_51
-  Type: IEC_SEL
-  DataType: IEC_SEL
-  Children:
-  - Name: EnableIn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_51.EnableIn"
-  - Name: EnableOut
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_51.EnableOut"
-  - Name: G
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_51.G"
-  - Name: IN0
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_51.IN0"
-  - Name: IN1
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_51.IN1"
-  - Name: OUT
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_51.OUT"
-- Name: FN_58
-  Type: IEC_SEL
-  DataType: IEC_SEL
-  Children:
-  - Name: EnableIn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_58.EnableIn"
-  - Name: EnableOut
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_58.EnableOut"
-  - Name: G
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_58.G"
-  - Name: IN0
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_58.IN0"
-  - Name: IN1
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_58.IN1"
-  - Name: OUT
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_58.OUT"
-- Name: BWSR_RE_SL_LT_POS_FBR_POS
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_RE_SL_LT_POS_FBR_POS"
-- Name: AuxReal0011
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.AuxReal0011"
-- Name: BWSR_FBONS01_SB
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBONS01_SB"
-- Name: BWSR_FB
-  Type: AsysSel
-  DataType: AsysSel
-  Children:
-  - Name: ENAB
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_FB.ENAB"
-  - Name: EnableIn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_FB.EnableIn"
-  - Name: EnableOut
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_FB.EnableOut"
-  - Name: FCOFF
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_FB.FCOFF"
-  - Name: FCON
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_FB.FCON"
-  - Name: SEL
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_FB.SEL"
-  - Name: SELOFFS
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_FB.SELOFFS"
-  - Name: SELONS
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_FB.SELONS"
+      Value: "Program:_231CD100G09.FN_46.OUT"
 - Name: FN_47
   Type: IEC_SEL
   DataType: IEC_SEL
@@ -1287,7 +1015,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:_231CD100G09.FN_47.OUT"
-- Name: FN_56
+- Name: FN_48
   Type: IEC_SEL
   DataType: IEC_SEL
   Children:
@@ -1299,7 +1027,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.FN_56.EnableIn"
+      Value: "Program:_231CD100G09.FN_48.EnableIn"
   - Name: EnableOut
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -1308,7 +1036,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.FN_56.EnableOut"
+      Value: "Program:_231CD100G09.FN_48.EnableOut"
   - Name: G
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -1317,7 +1045,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.FN_56.G"
+      Value: "Program:_231CD100G09.FN_48.G"
   - Name: IN0
     Type: RAEtherNetIPTag
     DataType: Float
@@ -1326,7 +1054,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.FN_56.IN0"
+      Value: "Program:_231CD100G09.FN_48.IN0"
   - Name: IN1
     Type: RAEtherNetIPTag
     DataType: Float
@@ -1335,7 +1063,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.FN_56.IN1"
+      Value: "Program:_231CD100G09.FN_48.IN1"
   - Name: OUT
     Type: RAEtherNetIPTag
     DataType: Float
@@ -1344,275 +1072,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09.FN_56.OUT"
-- Name: FN_55
-  Type: IEC_SEL
-  DataType: IEC_SEL
-  Children:
-  - Name: EnableIn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_55.EnableIn"
-  - Name: EnableOut
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_55.EnableOut"
-  - Name: G
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_55.G"
-  - Name: IN0
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_55.IN0"
-  - Name: IN1
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_55.IN1"
-  - Name: OUT
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_55.OUT"
-- Name: FN_53
-  Type: IEC_SEL
-  DataType: IEC_SEL
-  Children:
-  - Name: EnableIn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_53.EnableIn"
-  - Name: EnableOut
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_53.EnableOut"
-  - Name: G
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_53.G"
-  - Name: IN0
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_53.IN0"
-  - Name: IN1
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_53.IN1"
-  - Name: OUT
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.FN_53.OUT"
-- Name: BWSR_ST_IND02_FBSUB
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_ST_IND02_FBSUB"
-- Name: AuxReal0014
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.AuxReal0014"
-- Name: _231CD100G09_CMD
-  Type: ACESYS_CMD
-  DataType: ACESYS_CMD
-  Children:
-  - Name: GASTW
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_CMD.GASTW"
-  - Name: GLTP
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_CMD.GLTP"
-  - Name: GQSTP
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_CMD.GQSTP"
-  - Name: GSEL
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_CMD.GSEL"
-  - Name: GSS
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_CMD.GSS"
-  - Name: GSTP
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_CMD.GSTP"
-  - Name: GSTR
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_CMD.GSTR"
-  - Name: GVSTW
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_CMD.GVSTW"
-- Name: BWSR_FBTIM01
-  Type: TIMER
-  DataType: TIMER
-  Children:
-  - Name: ACC
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_FBTIM01.ACC"
-  - Name: DN
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_FBTIM01.DN"
-  - Name: EN
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_FBTIM01.EN"
-  - Name: PRE
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_FBTIM01.PRE"
-  - Name: TT
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09.BWSR_FBTIM01.TT"
-- Name: BWSR_FBONS02_Q
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBONS02_Q"
+      Value: "Program:_231CD100G09.FN_48.OUT"
 - Name: FN_49
   Type: IEC_SEL
   DataType: IEC_SEL
@@ -1671,6 +1131,238 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:_231CD100G09.FN_49.OUT"
+- Name: FN_50
+  Type: IEC_SEL
+  DataType: IEC_SEL
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_50.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_50.EnableOut"
+  - Name: G
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_50.G"
+  - Name: IN0
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_50.IN0"
+  - Name: IN1
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_50.IN1"
+  - Name: OUT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_50.OUT"
+- Name: FN_51
+  Type: IEC_SEL
+  DataType: IEC_SEL
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_51.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_51.EnableOut"
+  - Name: G
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_51.G"
+  - Name: IN0
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_51.IN0"
+  - Name: IN1
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_51.IN1"
+  - Name: OUT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_51.OUT"
+- Name: FN_52
+  Type: IEC_SEL
+  DataType: IEC_SEL
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_52.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_52.EnableOut"
+  - Name: G
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_52.G"
+  - Name: IN0
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_52.IN0"
+  - Name: IN1
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_52.IN1"
+  - Name: OUT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_52.OUT"
+- Name: FN_53
+  Type: IEC_SEL
+  DataType: IEC_SEL
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_53.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_53.EnableOut"
+  - Name: G
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_53.G"
+  - Name: IN0
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_53.IN0"
+  - Name: IN1
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_53.IN1"
+  - Name: OUT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_53.OUT"
 - Name: FN_54
   Type: IEC_SEL
   DataType: IEC_SEL
@@ -1729,6 +1421,314 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:_231CD100G09.FN_54.OUT"
+- Name: FN_55
+  Type: IEC_SEL
+  DataType: IEC_SEL
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_55.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_55.EnableOut"
+  - Name: G
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_55.G"
+  - Name: IN0
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_55.IN0"
+  - Name: IN1
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_55.IN1"
+  - Name: OUT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_55.OUT"
+- Name: FN_56
+  Type: IEC_SEL
+  DataType: IEC_SEL
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_56.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_56.EnableOut"
+  - Name: G
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_56.G"
+  - Name: IN0
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_56.IN0"
+  - Name: IN1
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_56.IN1"
+  - Name: OUT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_56.OUT"
+- Name: FN_57
+  Type: IEC_SEL
+  DataType: IEC_SEL
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_57.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_57.EnableOut"
+  - Name: G
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_57.G"
+  - Name: IN0
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_57.IN0"
+  - Name: IN1
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_57.IN1"
+  - Name: OUT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_57.OUT"
+- Name: FN_58
+  Type: IEC_SEL
+  DataType: IEC_SEL
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_58.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_58.EnableOut"
+  - Name: G
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_58.G"
+  - Name: IN0
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_58.IN0"
+  - Name: IN1
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_58.IN1"
+  - Name: OUT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09.FN_58.OUT"
+- Name: _231CD100G09_CMD
+  Type: ACESYS_CMD
+  DataType: ACESYS_CMD
+  Children:
+  - Name: GSEL
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_CMD.GSEL"
+  - Name: GSTR
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_CMD.GSTR"
+  - Name: GSTP
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_CMD.GSTP"
+  - Name: GQSTP
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_CMD.GQSTP"
+  - Name: GSS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_CMD.GSS"
+  - Name: GLTP
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_CMD.GLTP"
+  - Name: GASTW
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_CMD.GASTW"
+  - Name: GVSTW
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_CMD.GVSTW"
 - Name: _231CD100G09_FB
   Type: AsysGrp
   DataType: AsysGrp
@@ -1751,7 +1751,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:_231CD100G09._231CD100G09_FB.EnableOut"
-  - Name: EXT_CTRL
+  - Name: GSTI
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -1759,8 +1759,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.EXT_CTRL"
-  - Name: EXT_RESET
+      Value: "Program:_231CD100G09._231CD100G09_FB.GSTI"
+  - Name: GOP
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -1768,8 +1768,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.EXT_RESET"
-  - Name: EXT_START
+      Value: "Program:_231CD100G09._231CD100G09_FB.GOP"
+  - Name: GRDY
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -1777,8 +1777,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.EXT_START"
-  - Name: EXT_STOP
+      Value: "Program:_231CD100G09._231CD100G09_FB.GRDY"
+  - Name: GON
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -1786,8 +1786,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.EXT_STOP"
-  - Name: GACC
+      Value: "Program:_231CD100G09._231CD100G09_FB.GON"
+  - Name: GOFF
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -1795,8 +1795,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GACC"
-  - Name: GASTW
+      Value: "Program:_231CD100G09._231CD100G09_FB.GOFF"
+  - Name: GSTRR
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -1804,7 +1804,16 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GASTW"
+      Value: "Program:_231CD100G09._231CD100G09_FB.GSTRR"
+  - Name: GSTPR
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.GSTPR"
   - Name: GDS
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -1814,6 +1823,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:_231CD100G09._231CD100G09_FB.GDS"
+  - Name: GSELD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.GSELD"
   - Name: GDSEL
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -1832,7 +1850,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:_231CD100G09._231CD100G09_FB.GEMER"
-  - Name: GFLT
+  - Name: EXT_CTRL
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -1840,8 +1858,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GFLT"
-  - Name: GLTP
+      Value: "Program:_231CD100G09._231CD100G09_FB.EXT_CTRL"
+  - Name: EXT_START
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -1849,8 +1867,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GLTP"
-  - Name: GMRDY
+      Value: "Program:_231CD100G09._231CD100G09_FB.EXT_START"
+  - Name: EXT_STOP
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -1858,8 +1876,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GMRDY"
-  - Name: GOFF
+      Value: "Program:_231CD100G09._231CD100G09_FB.EXT_STOP"
+  - Name: EXT_RESET
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -1867,160 +1885,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GOFF"
-  - Name: GON
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GON"
-  - Name: GOP
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GOP"
-  - Name: GQSTP
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GQSTP"
-  - Name: GRDY
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GRDY"
-  - Name: GRP_OFF
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GRP_OFF"
-  - Name: GRUN
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GRUN"
-  - Name: GSEL
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GSEL"
-  - Name: GSELD
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GSELD"
-  - Name: GSS
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GSS"
-  - Name: GSTI
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GSTI"
-  - Name: GSTP
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GSTP"
-  - Name: GSTPR
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GSTPR"
-  - Name: GSTR
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GSTR"
-  - Name: GSTRR
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GSTRR"
-  - Name: GVSTW
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.GVSTW"
-  - Name: RDY_START
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.RDY_START"
-  - Name: RESET
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:_231CD100G09._231CD100G09_FB.RESET"
+      Value: "Program:_231CD100G09._231CD100G09_FB.EXT_RESET"
   - Name: WD_LOCAL
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -2030,7 +1895,142 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:_231CD100G09._231CD100G09_FB.WD_LOCAL"
-- Name: BWSR_FBRE_BWON
+  - Name: GSEL
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.GSEL"
+  - Name: GSTR
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.GSTR"
+  - Name: GSTP
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.GSTP"
+  - Name: GQSTP
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.GQSTP"
+  - Name: GSS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.GSS"
+  - Name: GLTP
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.GLTP"
+  - Name: GASTW
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.GASTW"
+  - Name: GVSTW
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.GVSTW"
+  - Name: GACC
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.GACC"
+  - Name: GRUN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.GRUN"
+  - Name: GMRDY
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.GMRDY"
+  - Name: GFLT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.GFLT"
+  - Name: RESET
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.RESET"
+  - Name: RDY_START
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.RDY_START"
+  - Name: GRP_OFF
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:_231CD100G09._231CD100G09_FB.GRP_OFF"
+- Name: _231CD100G09_FBFF01
   Type: RAEtherNetIPTag
   DataType: Boolean
   Value: false
@@ -2038,4 +2038,4 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Program:_231CD100G09.BWSR_FBRE_BWON"
+    Value: "Program:_231CD100G09._231CD100G09_FBFF01"

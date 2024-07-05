@@ -21,6 +21,8 @@ Children:
         Type: Button
       - Name: Button2
         Type: Button
+      - Name: Button4
+        Type: Button
     - Name: Rectangle5
       Type: Rectangle
       Children:
@@ -8975,6 +8977,8 @@ Children:
         Type: Button
       - Name: Button2
         Type: Button
+      - Name: Button4
+        Type: Button
     - Name: Rectangle5
       Type: Rectangle
       Children:
@@ -11450,6 +11454,8 @@ Children:
       - Name: Button1
         Type: Button
       - Name: Button2
+        Type: Button
+      - Name: Button4
         Type: Button
     - Name: Rectangle5
       Type: Rectangle

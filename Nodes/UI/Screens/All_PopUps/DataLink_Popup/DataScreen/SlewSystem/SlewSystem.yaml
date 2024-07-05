@@ -19,8 +19,253 @@ Children:
           Type: Label
       - Name: Button1
         Type: Button
+        Children:
+        - Name: MouseClickEventHandler1
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+          - Name: MethodsToCall
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Type: BaseObjectType
+              Children:
+              - Name: ns=2;ObjectPointer
+                Type: NodePointer
+                DataType: NodeId
+                Value: "/Objects/Commands/VariableCommands"
+                Children:
+                - Name: Kind
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: ns=2;Method
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Set"
+              - Name: InputArguments
+                Type: BaseObjectType
+                Children:
+                - Name: VariableToModify
+                  Type: BaseDataVariableType
+                  DataType: VariablePointer
+                  Description: {"NamespaceIndex":2,"TextId":"SetVariableToModifyDescription"}
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/SLEW_SYSTEM_231CD100G06_CMD_START"
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Description: {"NamespaceIndex":2,"TextId":"SetValueDescription"}
+                  Value: true
+                - Name: ArrayIndex
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Description: {"NamespaceIndex":2,"TextId":"SetArrayIndexDescription"}
+                  ValueRank: ScalarOrOneDimension
+                  Value: 0
+          - Name: EventArguments
+            Type: MouseClickEvent
+            Children:
+            - Name: EventId
+              Type: PropertyType
+              DataType: ByteString
+              Value: ""
+            - Name: EventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceNode
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceName
+              Type: PropertyType
+              DataType: String
+              Value: ""
+            - Name: Time
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: ReceiveTime
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: Message
+              Type: PropertyType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Severity
+              Type: PropertyType
+              DataType: UInt16
+              Value: 0
       - Name: Button2
         Type: Button
+        Children:
+        - Name: MouseClickEventHandler1
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+          - Name: MethodsToCall
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Type: BaseObjectType
+              Children:
+              - Name: ns=2;ObjectPointer
+                Type: NodePointer
+                DataType: NodeId
+                Value: "/Objects/Commands/VariableCommands"
+                Children:
+                - Name: Kind
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: ns=2;Method
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Set"
+              - Name: InputArguments
+                Type: BaseObjectType
+                Children:
+                - Name: VariableToModify
+                  Type: BaseDataVariableType
+                  DataType: VariablePointer
+                  Description: {"NamespaceIndex":2,"TextId":"SetVariableToModifyDescription"}
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/SLEW_SYSTEM_231CD100G06_CMD_STOP"
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Description: {"NamespaceIndex":2,"TextId":"SetValueDescription"}
+                  Value: true
+                - Name: ArrayIndex
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Description: {"NamespaceIndex":2,"TextId":"SetArrayIndexDescription"}
+                  ValueRank: ScalarOrOneDimension
+                  Value: 0
+          - Name: EventArguments
+            Type: MouseClickEvent
+            Children:
+            - Name: EventId
+              Type: PropertyType
+              DataType: ByteString
+              Value: ""
+            - Name: EventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceNode
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceName
+              Type: PropertyType
+              DataType: String
+              Value: ""
+            - Name: Time
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: ReceiveTime
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: Message
+              Type: PropertyType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Severity
+              Type: PropertyType
+              DataType: UInt16
+              Value: 0
+      - Name: Button3
+        Type: Button
+        Children:
+        - Name: MouseClickEventHandler1
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+          - Name: MethodsToCall
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Type: BaseObjectType
+              Children:
+              - Name: ns=2;ObjectPointer
+                Type: NodePointer
+                DataType: NodeId
+                Value: "/Objects/Commands/VariableCommands"
+                Children:
+                - Name: Kind
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: ns=2;Method
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Set"
+              - Name: InputArguments
+                Type: BaseObjectType
+                Children:
+                - Name: VariableToModify
+                  Type: BaseDataVariableType
+                  DataType: VariablePointer
+                  Description: {"NamespaceIndex":2,"TextId":"SetVariableToModifyDescription"}
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/SLEW_SYSTEM_231CD100G06_CMD_SELECT"
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Description: {"NamespaceIndex":2,"TextId":"SetValueDescription"}
+                  Value: true
+                - Name: ArrayIndex
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Description: {"NamespaceIndex":2,"TextId":"SetArrayIndexDescription"}
+                  ValueRank: ScalarOrOneDimension
+                  Value: 0
+          - Name: EventArguments
+            Type: MouseClickEvent
+            Children:
+            - Name: EventId
+              Type: PropertyType
+              DataType: ByteString
+              Value: ""
+            - Name: EventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceNode
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceName
+              Type: PropertyType
+              DataType: String
+              Value: ""
+            - Name: Time
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: ReceiveTime
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: Message
+              Type: PropertyType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Severity
+              Type: PropertyType
+              DataType: UInt16
+              Value: 0
     - Name: Rectangle5
       Type: Rectangle
       Children:
@@ -31,10 +276,253 @@ Children:
           Type: Label
       - Name: Button1
         Type: Button
+        Children:
+        - Name: MouseClickEventHandler1
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+          - Name: MethodsToCall
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Type: BaseObjectType
+              Children:
+              - Name: ns=2;ObjectPointer
+                Type: NodePointer
+                DataType: NodeId
+                Value: "/Objects/Commands/VariableCommands"
+                Children:
+                - Name: Kind
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: ns=2;Method
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Set"
+              - Name: InputArguments
+                Type: BaseObjectType
+                Children:
+                - Name: VariableToModify
+                  Type: BaseDataVariableType
+                  DataType: VariablePointer
+                  Description: {"NamespaceIndex":2,"TextId":"SetVariableToModifyDescription"}
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/SLEW_SYSTEM_231CD100G06_CMD_AUTO"
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Description: {"NamespaceIndex":2,"TextId":"SetValueDescription"}
+                  Value: true
+                - Name: ArrayIndex
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Description: {"NamespaceIndex":2,"TextId":"SetArrayIndexDescription"}
+                  ValueRank: ScalarOrOneDimension
+                  Value: 0
+          - Name: EventArguments
+            Type: MouseClickEvent
+            Children:
+            - Name: EventId
+              Type: PropertyType
+              DataType: ByteString
+              Value: ""
+            - Name: EventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceNode
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceName
+              Type: PropertyType
+              DataType: String
+              Value: ""
+            - Name: Time
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: ReceiveTime
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: Message
+              Type: PropertyType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Severity
+              Type: PropertyType
+              DataType: UInt16
+              Value: 0
       - Name: Button2
         Type: Button
+        Children:
+        - Name: MouseClickEventHandler1
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+          - Name: MethodsToCall
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Type: BaseObjectType
+              Children:
+              - Name: ns=2;ObjectPointer
+                Type: NodePointer
+                DataType: NodeId
+                Value: "/Objects/Commands/VariableCommands"
+                Children:
+                - Name: Kind
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: ns=2;Method
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Set"
+              - Name: InputArguments
+                Type: BaseObjectType
+                Children:
+                - Name: VariableToModify
+                  Type: BaseDataVariableType
+                  DataType: VariablePointer
+                  Description: {"NamespaceIndex":2,"TextId":"SetVariableToModifyDescription"}
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/SLEW_SYSTEM_231CD100G06_CMD_LOCAL"
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Description: {"NamespaceIndex":2,"TextId":"SetValueDescription"}
+                  Value: true
+                - Name: ArrayIndex
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Description: {"NamespaceIndex":2,"TextId":"SetArrayIndexDescription"}
+                  ValueRank: ScalarOrOneDimension
+                  Value: 0
+          - Name: EventArguments
+            Type: MouseClickEvent
+            Children:
+            - Name: EventId
+              Type: PropertyType
+              DataType: ByteString
+              Value: ""
+            - Name: EventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceNode
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceName
+              Type: PropertyType
+              DataType: String
+              Value: ""
+            - Name: Time
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: ReceiveTime
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: Message
+              Type: PropertyType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Severity
+              Type: PropertyType
+              DataType: UInt16
+              Value: 0
       - Name: Button3
         Type: Button
+        Children:
+        - Name: MouseClickEventHandler1
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+          - Name: MethodsToCall
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Type: BaseObjectType
+              Children:
+              - Name: ns=2;ObjectPointer
+                Type: NodePointer
+                DataType: NodeId
+                Value: "/Objects/Commands/VariableCommands"
+                Children:
+                - Name: Kind
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: ns=2;Method
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Set"
+              - Name: InputArguments
+                Type: BaseObjectType
+                Children:
+                - Name: VariableToModify
+                  Type: BaseDataVariableType
+                  DataType: VariablePointer
+                  Description: {"NamespaceIndex":2,"TextId":"SetVariableToModifyDescription"}
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/SLEW_SYSTEM_231CD100G06_CMD_SINGLE_START"
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Description: {"NamespaceIndex":2,"TextId":"SetValueDescription"}
+                  Value: true
+                - Name: ArrayIndex
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Description: {"NamespaceIndex":2,"TextId":"SetArrayIndexDescription"}
+                  ValueRank: ScalarOrOneDimension
+                  Value: 0
+          - Name: EventArguments
+            Type: MouseClickEvent
+            Children:
+            - Name: EventId
+              Type: PropertyType
+              DataType: ByteString
+              Value: ""
+            - Name: EventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceNode
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceName
+              Type: PropertyType
+              DataType: String
+              Value: ""
+            - Name: Time
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: ReceiveTime
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: Message
+              Type: PropertyType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Severity
+              Type: PropertyType
+              DataType: UInt16
+              Value: 0
       - Name: Button4
         Type: Button
       - Name: TopMargin
@@ -112,7 +600,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GSTI"
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -133,7 +621,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GOP"
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -154,7 +642,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GRDY"
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -175,7 +663,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GON"
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -196,7 +684,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GOFF"
       - Name: Rectangle7
         Type: Rectangle
         Children:
@@ -217,7 +705,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GSTRR"
       - Name: Rectangle8
         Type: Rectangle
         Children:
@@ -238,7 +726,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GSTPR"
       - Name: Rectangle9
         Type: Rectangle
         Children:
@@ -259,7 +747,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GDS"
       - Name: Rectangle10
         Type: Rectangle
         Children:
@@ -280,7 +768,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GSELD"
       - Name: Rectangle11
         Type: Rectangle
         Children:
@@ -301,7 +789,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GDSEL"
       - Name: Rectangle12
         Type: Rectangle
         Children:
@@ -322,7 +810,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/WD_LOCAL"
       - Name: Rectangle13
         Type: Rectangle
         Children:
@@ -343,7 +831,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GEMER"
       - Name: Rectangle14
         Type: Rectangle
         Children:
@@ -364,7 +852,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/EXT_CTRL"
       - Name: Rectangle15
         Type: Rectangle
         Children:
@@ -385,7 +873,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/EXT_START"
       - Name: Rectangle16
         Type: Rectangle
         Children:
@@ -406,7 +894,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/EXT_STOP"
       - Name: Rectangle17
         Type: Rectangle
         Children:
@@ -427,7 +915,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/EXT_RESET"
       - Name: Label7
         Type: Label
       - Name: Label8
@@ -570,7 +1058,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GSEL"
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -591,7 +1079,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GSTR"
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -612,7 +1100,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GSTP"
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -633,7 +1121,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GQSTP"
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -654,7 +1142,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GSS"
       - Name: Rectangle7
         Type: Rectangle
         Children:
@@ -675,7 +1163,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GLTP"
       - Name: Rectangle8
         Type: Rectangle
         Children:
@@ -696,7 +1184,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GASTW"
       - Name: Rectangle9
         Type: Rectangle
         Children:
@@ -717,7 +1205,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GVSTW"
       - Name: Rectangle10
         Type: Rectangle
         Children:
@@ -738,7 +1226,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GACC"
       - Name: Rectangle11
         Type: Rectangle
         Children:
@@ -759,7 +1247,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GRUN"
       - Name: Rectangle13
         Type: Rectangle
         Children:
@@ -780,7 +1268,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GMRDY"
       - Name: Rectangle14
         Type: Rectangle
         Children:
@@ -801,7 +1289,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GFLT"
       - Name: Rectangle15
         Type: Rectangle
         Children:
@@ -822,7 +1310,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/RESET"
       - Name: Rectangle16
         Type: Rectangle
         Children:
@@ -843,7 +1331,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/RDY_START"
       - Name: Rectangle17
         Type: Rectangle
         Children:
@@ -864,7 +1352,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: ""
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/GRP_OFF"
       - Name: Label7
         Type: Label
         Children:
@@ -1092,6 +1580,37 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Children:
+          - Name: StringFormatter1
+            Type: StringFormatter
+            Children:
+            - Name: Format
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: {"LocaleId":"","Text":"{0:d}"}
+            - Name: ns=2;Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/StartFail_Pre"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: Mode
+              Type: PropertyType
+              DataType: DynamicLinkMode
+              ReferenceType: HasComponent
+              ModellingRule: Optional
+              Value: 2
       - Name: TextBox2
         Type: TextBox
         Children:
@@ -1099,6 +1618,37 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Children:
+          - Name: StringFormatter1
+            Type: StringFormatter
+            Children:
+            - Name: Format
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: {"LocaleId":"","Text":"{0:d}"}
+            - Name: ns=2;Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/StopFail_Pre"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: Mode
+              Type: PropertyType
+              DataType: DynamicLinkMode
+              ReferenceType: HasComponent
+              ModellingRule: Optional
+              Value: 2
       - Name: TextBox3
         Type: TextBox
         Children:
@@ -1106,6 +1656,37 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Children:
+          - Name: StringFormatter1
+            Type: StringFormatter
+            Children:
+            - Name: Format
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: {"LocaleId":"","Text":"{0:d}"}
+            - Name: ns=2;Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G06_FP/StartWarn_Pre"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: Mode
+              Type: PropertyType
+              DataType: DynamicLinkMode
+              ReferenceType: HasComponent
+              ModellingRule: Optional
+              Value: 2
 - Name: Main_Ctrl_Select5
   Id: g=640ef074f66ea9b6b938402bb17f450e
   Supertype: Main_Ctrl_Select

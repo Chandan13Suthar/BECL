@@ -96,6 +96,16 @@ Children:
           Type: BaseDataVariableType
           DataType: ResourceUri
           Value: "ns=7;%PROJECTDIR%/Pima Logo 1 (1).png"
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 5.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: -5.0
       - Name: Rectangle1
         Type: Rectangle
         Children:
@@ -118,7 +128,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: ""
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G08_S10_FP/SEL"
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -488,6 +498,209 @@ Children:
         - Class: Reference
           Target: ns=3;i=478
           Direction: Forward
+      - Name: Button4
+        Type: Button
+        Children:
+        - Name: MouseClickEventHandler1
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+          - Name: MethodsToCall
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Type: BaseObjectType
+              Children:
+              - Name: ns=2;ObjectPointer
+                Type: NodePointer
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+                Children:
+                - Name: Kind
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../PanelLoader13@NodeId"
+              - Name: ns=2;Method
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ChangePanel"
+              - Name: InputArguments
+                Type: BaseObjectType
+                Children:
+                - Name: NewPanel
+                  Type: BaseDataVariableType
+                  DataType: NodeId
+                  Value: "/Objects/BECL/UI/Templetes/PopUploader/Ctrl_Input_Ctrl"
+                - Name: AliasNode
+                  Type: BaseDataVariableType
+                  DataType: NodeId
+                  ValueRank: ScalarOrOneDimension
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: EventArguments
+            Type: MouseClickEvent
+            Children:
+            - Name: EventId
+              Type: PropertyType
+              DataType: ByteString
+              Value: ""
+            - Name: EventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceNode
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceName
+              Type: PropertyType
+              DataType: String
+              Value: ""
+            - Name: Time
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: ReceiveTime
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: Message
+              Type: PropertyType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Severity
+              Type: PropertyType
+              DataType: UInt16
+              Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+      - Name: Button7
+        Type: Button
+        Children:
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 75.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 475.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 370.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 80.0
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"SELECTION"}
+        - Name: FontSize
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 25.0
+        - Name: MouseClickEventHandler1
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+          - Name: MethodsToCall
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Type: BaseObjectType
+              Children:
+              - Name: ns=2;ObjectPointer
+                Type: NodePointer
+                DataType: NodeId
+                Value: "/Objects/Commands/VariableCommands"
+                Children:
+                - Name: Kind
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: ns=2;Method
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Set"
+              - Name: InputArguments
+                Type: BaseObjectType
+                Children:
+                - Name: VariableToModify
+                  Type: BaseDataVariableType
+                  DataType: VariablePointer
+                  Description: {"NamespaceIndex":2,"TextId":"SetVariableToModifyDescription"}
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/CMD_RECLAMING_SELECTION"
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Description: {"NamespaceIndex":2,"TextId":"SetValueDescription"}
+                  Value: true
+                - Name: ArrayIndex
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Description: {"NamespaceIndex":2,"TextId":"SetArrayIndexDescription"}
+                  ValueRank: ScalarOrOneDimension
+                  Value: 0
+          - Name: EventArguments
+            Type: MouseClickEvent
+            Children:
+            - Name: EventId
+              Type: PropertyType
+              DataType: ByteString
+              Value: ""
+            - Name: EventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceNode
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceName
+              Type: PropertyType
+              DataType: String
+              Value: ""
+            - Name: Time
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: ReceiveTime
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: Message
+              Type: PropertyType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Severity
+              Type: PropertyType
+              DataType: UInt16
+              Value: 0
   - Name: MoveTarget
     Type: NodePointer
     DataType: NodeId
@@ -619,7 +832,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: ""
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231CD100G08_S10_FP/SEL"
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color

@@ -16,8 +16,8 @@ Children:
 - Name: FilePath
   Type: BaseDataVariableType
   DataType: AbsoluteResourceUri
-  Value: "file:///C:/Users/chandan.suthar/Downloads/_231ST101_29_04_24_PLC2.ACD"
+  Value: "file:///D:/Bhushan/Project/GSCEL/GSECL Bhavnagar/GSCEL 29-05-2024/_231ST101_upload_plc1_30_05_24.ACD"
 - Name: Mode
   Type: BaseDataVariableType
   DataType: FetchModes
-  Value: 1
+  Value: 0

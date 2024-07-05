@@ -31,6 +31,8 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 20.0
+      - Name: Button3
+        Type: Button
     - Name: Rectangle5
       Type: Rectangle
       Children:

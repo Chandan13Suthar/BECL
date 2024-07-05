@@ -24,7 +24,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
+          Value: -320.0
         - Name: RightMargin
           Type: BaseVariableType
           DataType: Size
@@ -53,6 +53,8 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 177.0
+      - Name: Button3
+        Type: Button
     - Name: Rectangle5
       Type: Rectangle
       Children:

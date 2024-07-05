@@ -21,6 +21,8 @@ Children:
         Type: Button
       - Name: Button2
         Type: Button
+      - Name: Button4
+        Type: Button
     - Name: Rectangle5
       Type: Rectangle
       Children:
@@ -1362,96 +1364,12 @@ Children:
         Children:
         - Name: Label1
           Type: Label
-      - Name: Rectangle2
-        Type: Rectangle
-        Children:
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: ""
-      - Name: Rectangle3
-        Type: Rectangle
-        Children:
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: ""
-      - Name: Rectangle6
-        Type: Rectangle
-        Children:
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: ""
       - Name: Label12
         Type: Label
       - Name: Label13
         Type: Label
       - Name: Label16
         Type: Label
-      - Name: Rectangle11
-        Type: Rectangle
-        Children:
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: ""
       - Name: Label20
         Type: Label
       - Name: Label7

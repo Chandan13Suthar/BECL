@@ -21,6 +21,8 @@ Children:
         Type: Button
       - Name: Button2
         Type: Button
+      - Name: Button4
+        Type: Button
     - Name: Rectangle5
       Type: Rectangle
       Children:
@@ -90,7 +92,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 118.0
+          Value: 155.0
       - Name: Label4
         Type: Label
         Children:
@@ -103,7 +105,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 150.0
+          Value: 187.0
       - Name: Label5
         Type: Label
         Children:
@@ -116,7 +118,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 183.0
+          Value: 253.0
       - Name: Label6
         Type: Label
         Children:
@@ -129,7 +131,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 215.0
+          Value: 285.0
       - Name: Label7
         Type: Label
         Children:
@@ -142,7 +144,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 249.0
+          Value: 319.0
       - Name: Label8
         Type: Label
         Children:
@@ -155,7 +157,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 281.0
+          Value: 351.0
       - Name: Label9
         Type: Label
         Children:
@@ -168,7 +170,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 313.0
+          Value: 383.0
       - Name: Label10
         Type: Label
         Children:
@@ -181,7 +183,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 347.0
+          Value: 417.0
       - Name: Label11
         Type: Label
         Children:
@@ -194,7 +196,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 379.0
+          Value: 449.0
       - Name: Rectangle2
         Type: Rectangle
         Children:
@@ -267,7 +269,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 120.0
+          Value: 157.0
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -298,7 +300,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 154.0
+          Value: 191.0
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -329,7 +331,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 187.0
+          Value: 257.0
       - Name: Rectangle7
         Type: Rectangle
         Children:
@@ -360,7 +362,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 221.0
+          Value: 291.0
       - Name: Rectangle8
         Type: Rectangle
         Children:
@@ -391,7 +393,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 251.0
+          Value: 321.0
       - Name: Rectangle9
         Type: Rectangle
         Children:
@@ -422,7 +424,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 285.0
+          Value: 355.0
       - Name: Rectangle10
         Type: Rectangle
         Children:
@@ -453,7 +455,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 317.0
+          Value: 387.0
       - Name: Rectangle11
         Type: Rectangle
         Children:
@@ -484,7 +486,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 351.0
+          Value: 421.0
       - Name: Rectangle12
         Type: Rectangle
         Children:
@@ -515,7 +517,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 381.0
+          Value: 451.0
       - Name: Label12
         Type: Label
       - Name: Label13
@@ -532,7 +534,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 118.0
+          Value: 155.0
       - Name: Label15
         Type: Label
         Children:
@@ -545,7 +547,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 150.0
+          Value: 187.0
       - Name: Label16
         Type: Label
         Children:
@@ -558,7 +560,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 183.0
+          Value: 253.0
       - Name: Label17
         Type: Label
         Children:
@@ -571,7 +573,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 215.0
+          Value: 285.0
       - Name: Label18
         Type: Label
         Children:
@@ -584,7 +586,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 249.0
+          Value: 319.0
       - Name: Label19
         Type: Label
         Children:
@@ -597,7 +599,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 281.0
+          Value: 351.0
       - Name: Label20
         Type: Label
         Children:
@@ -610,7 +612,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 313.0
+          Value: 383.0
       - Name: Label21
         Type: Label
         Children:
@@ -623,7 +625,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 347.0
+          Value: 417.0
       - Name: Label22
         Type: Label
         Children:
@@ -636,7 +638,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 379.0
+          Value: 449.0
       - Name: Label23
         Type: Label
         Children:
@@ -707,6 +709,56 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 10.0
+      - Name: Label24
+        Type: Label
+      - Name: Rectangle14
+        Type: Rectangle
+        Children:
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff"
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Value: false
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: ""
+      - Name: Label27
+        Type: Label
+      - Name: Label28
+        Type: Label
+      - Name: Rectangle15
+        Type: Rectangle
+        Children:
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff"
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Value: false
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: ""
+      - Name: Label29
+        Type: Label
     - Name: Rectangle1
       Type: Rectangle
       Children:
@@ -1231,6 +1283,81 @@ Children:
                 Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101M03_FP/ASTW"
       - Name: Label10
         Type: Label
+      - Name: Label11
+        Type: Label
+      - Name: Rectangle11
+        Type: Rectangle
+        Children:
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff"
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Value: false
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: ""
+      - Name: Label20
+        Type: Label
+      - Name: Label21
+        Type: Label
+      - Name: Rectangle12
+        Type: Rectangle
+        Children:
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff"
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Value: false
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: ""
+      - Name: Label22
+        Type: Label
+      - Name: Label23
+        Type: Label
+      - Name: Rectangle13
+        Type: Rectangle
+        Children:
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff"
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Value: false
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: ""
+      - Name: Label24
+        Type: Label
     - Name: Rectangle1
       Type: Rectangle
       Children:
@@ -1414,6 +1541,56 @@ Children:
                 Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101M03_FP/DSE"
       - Name: Label8
         Type: Label
+      - Name: Label9
+        Type: Label
+      - Name: Rectangle9
+        Type: Rectangle
+        Children:
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff"
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Value: false
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: ""
+      - Name: Label10
+        Type: Label
+      - Name: Label11
+        Type: Label
+      - Name: Rectangle10
+        Type: Rectangle
+        Children:
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff"
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Value: false
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: ""
+      - Name: Label18
+        Type: Label
     - Name: Rectangle2
       Type: Rectangle
       Children:
@@ -1529,6 +1706,33 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"LocaleId":"en-US","Text":"mlml s"}
+      - Name: Label3
+        Type: Label
+      - Name: Label7
+        Type: TextBox
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"sfsdf s"}
+      - Name: Label8
+        Type: Label
+      - Name: Label9
+        Type: TextBox
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"mlml s"}
+      - Name: Label10
+        Type: Label
+      - Name: Label11
+        Type: TextBox
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"mlml s"}
     - Name: Rectangle3
       Type: Rectangle
       Children:
@@ -1603,96 +1807,12 @@ Children:
         Children:
         - Name: Label1
           Type: Label
-      - Name: Rectangle2
-        Type: Rectangle
-        Children:
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: ""
-      - Name: Rectangle3
-        Type: Rectangle
-        Children:
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: ""
-      - Name: Rectangle6
-        Type: Rectangle
-        Children:
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: ""
       - Name: Label12
         Type: Label
       - Name: Label13
         Type: Label
       - Name: Label16
         Type: Label
-      - Name: Rectangle11
-        Type: Rectangle
-        Children:
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: ""
       - Name: Label20
         Type: Label
       - Name: Label7

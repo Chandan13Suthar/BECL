@@ -7434,6 +7434,98 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OpenDialog"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Dialog
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: "/Objects/BECL/UI/Templetes/Interlocks/_231CD100G01"
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    ValueRank: ScalarOrOneDimension
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: ParentItem
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@NodeId"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: DialogNodeId
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: PanelLoader14
         Type: PanelLoader
         Children:
@@ -8258,6 +8350,98 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OpenDialog"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Dialog
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: "/Objects/BECL/UI/Templetes/Interlocks/_231CD100G02"
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    ValueRank: ScalarOrOneDimension
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: ParentItem
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@NodeId"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: DialogNodeId
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: PanelLoader14
         Type: PanelLoader
         Children:
@@ -8881,6 +9065,98 @@ Children:
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "Close"
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OpenDialog"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Dialog
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: "/Objects/BECL/UI/Templetes/Interlocks/_231CD100G03"
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    ValueRank: ScalarOrOneDimension
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: ParentItem
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@NodeId"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: DialogNodeId
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: EventArguments
               Type: MouseClickEvent
               Children:
@@ -9569,7 +9845,7 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
-        - Name: Button1
+        - Name: Button2
           Type: Button
           Children:
           - Name: MouseClickEventHandler1
@@ -9585,7 +9861,7 @@ Children:
               - Name: MethodContainer1
                 Type: BaseObjectType
                 Children:
-                - Name: ns=2;ObjectPointer
+                - Name: ObjectPointer
                   Type: NodePointer
                   DataType: NodeId
                   Value: "/Objects/Commands/UICommands"
@@ -9594,7 +9870,7 @@ Children:
                     Type: PropertyType
                     DataType: NodeId
                     Value: "/Types/ObjectTypes/BaseObjectType"
-                - Name: ns=2;Method
+                - Name: Method
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "OpenDialog"
@@ -9604,7 +9880,7 @@ Children:
                   - Name: Dialog
                     Type: BaseDataVariableType
                     DataType: NodeId
-                    Value: "/Objects/BECL/UI/Screens/All PopUps/Interlocks/M25"
+                    Value: "/Objects/BECL/UI/Templetes/Interlocks/_231CD100G04"
                   - Name: AliasNode
                     Type: BaseDataVariableType
                     DataType: NodeId
@@ -9661,36 +9937,6 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 150.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 15.0
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 120.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 45.0
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"en-US","Text":"Interlock"}
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 20.0
       - Name: PanelLoader14
         Type: PanelLoader
         Children:
@@ -10314,6 +10560,98 @@ Children:
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "Close"
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OpenDialog"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Dialog
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: "/Objects/BECL/UI/Templetes/Interlocks/_231CD100G05"
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    ValueRank: ScalarOrOneDimension
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: ParentItem
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@NodeId"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: DialogNodeId
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: EventArguments
               Type: MouseClickEvent
               Children:
@@ -11007,6 +11345,98 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OpenDialog"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Dialog
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: "/Objects/BECL/UI/Templetes/Interlocks/_231CD100G06"
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    ValueRank: ScalarOrOneDimension
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: ParentItem
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@NodeId"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: DialogNodeId
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: PanelLoader14
         Type: PanelLoader
         Children:
@@ -11660,7 +12090,7 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
-        - Name: Button1
+        - Name: Button2
           Type: Button
           Children:
           - Name: MouseClickEventHandler1
@@ -11676,7 +12106,7 @@ Children:
               - Name: MethodContainer1
                 Type: BaseObjectType
                 Children:
-                - Name: ns=2;ObjectPointer
+                - Name: ObjectPointer
                   Type: NodePointer
                   DataType: NodeId
                   Value: "/Objects/Commands/UICommands"
@@ -11685,7 +12115,7 @@ Children:
                     Type: PropertyType
                     DataType: NodeId
                     Value: "/Types/ObjectTypes/BaseObjectType"
-                - Name: ns=2;Method
+                - Name: Method
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "OpenDialog"
@@ -11695,7 +12125,7 @@ Children:
                   - Name: Dialog
                     Type: BaseDataVariableType
                     DataType: NodeId
-                    Value: "/Objects/BECL/UI/Screens/All PopUps/Interlocks/M26"
+                    Value: "/Objects/BECL/UI/Templetes/Interlocks/_231CD100G07"
                   - Name: AliasNode
                     Type: BaseDataVariableType
                     DataType: NodeId
@@ -11752,36 +12182,6 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 150.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 15.0
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 120.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 45.0
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"en-US","Text":"Interlock"}
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 20.0
       - Name: PanelLoader14
         Type: PanelLoader
         Children:
@@ -12394,6 +12794,98 @@ Children:
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "Close"
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OpenDialog"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Dialog
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: "/Objects/BECL/UI/Templetes/Interlocks/_231CD100G08"
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    ValueRank: ScalarOrOneDimension
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: ParentItem
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@NodeId"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: DialogNodeId
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: EventArguments
               Type: MouseClickEvent
               Children:
@@ -22302,6 +22794,98 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OpenDialog"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Dialog
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    ValueRank: ScalarOrOneDimension
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: ParentItem
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@NodeId"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: DialogNodeId
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: PanelLoader14
         Type: PanelLoader
         Children:
@@ -22980,6 +23564,98 @@ Children:
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "Close"
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OpenDialog"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Dialog
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    ValueRank: ScalarOrOneDimension
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: ParentItem
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@NodeId"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: DialogNodeId
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: EventArguments
               Type: MouseClickEvent
               Children:
@@ -36425,6 +37101,98 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OpenDialog"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Dialog
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    ValueRank: ScalarOrOneDimension
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: ParentItem
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@NodeId"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: DialogNodeId
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: PanelLoader14
         Type: PanelLoader
         Children:
@@ -37043,6 +37811,98 @@ Children:
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "Close"
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OpenDialog"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Dialog
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    ValueRank: ScalarOrOneDimension
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: ParentItem
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@NodeId"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: DialogNodeId
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: EventArguments
               Type: MouseClickEvent
               Children:
@@ -40536,6 +41396,98 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OpenDialog"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Dialog
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    ValueRank: ScalarOrOneDimension
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: ParentItem
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@NodeId"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: DialogNodeId
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: PanelLoader14
         Type: PanelLoader
         Children:
@@ -41214,6 +42166,98 @@ Children:
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "Close"
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OpenDialog"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Dialog
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    ValueRank: ScalarOrOneDimension
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: ParentItem
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@NodeId"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: DialogNodeId
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: EventArguments
               Type: MouseClickEvent
               Children:
@@ -57322,6 +58366,98 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OpenDialog"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Dialog
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    ValueRank: ScalarOrOneDimension
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: ParentItem
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@NodeId"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: DialogNodeId
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: PanelLoader14
         Type: PanelLoader
         Children:
@@ -58971,6 +60107,98 @@ Children:
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "Close"
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OpenDialog"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Dialog
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    ValueRank: ScalarOrOneDimension
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: ParentItem
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@NodeId"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: DialogNodeId
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: EventArguments
               Type: MouseClickEvent
               Children:
@@ -61808,6 +63036,98 @@ Children:
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 700
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OpenDialog"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Dialog
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    ValueRank: ScalarOrOneDimension
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: ParentItem
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@NodeId"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: DialogNodeId
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: PanelLoader14
         Type: PanelLoader
         Children:
@@ -69615,6 +70935,98 @@ Children:
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 700
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OpenDialog"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Dialog
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    ValueRank: ScalarOrOneDimension
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: ParentItem
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@NodeId"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: DialogNodeId
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: PanelLoader14
         Type: PanelLoader
         Children:
