@@ -11293,6 +11293,10 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101M02_FP/MD_Puls"
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Pulses"}
       - Name: Checkbox4
         Type: CheckBox
         Children:
@@ -13771,6 +13775,10 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101M02_FP/MD_Puls"
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Pulses"}
       - Name: Checkbox4
         Type: CheckBox
         Children:

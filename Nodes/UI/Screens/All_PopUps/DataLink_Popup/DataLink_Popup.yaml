@@ -15050,6 +15050,9 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Class: Reference
+          Target: ns=3;i=478
+          Direction: Forward
       - Name: Button5
         Type: Button
         Children:
@@ -15409,6 +15412,9 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Class: Reference
+    Target: ns=3;i=621
+    Direction: Forward
 - Name: Deg
   Id: g=c06f0a2cf67c5380635314a0faf75a1a
   Supertype: DataPopupBase
@@ -16045,6 +16051,9 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Class: Reference
+          Target: ns=3;i=478
+          Direction: Forward
       - Name: Button5
         Type: Button
         Children:
@@ -16404,6 +16413,9 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Class: Reference
+    Target: ns=3;i=621
+    Direction: Forward
 - Name: PopupBaseOnWheel1
   Id: g=77b8259ec72a2188b45c32237bd7be29
   Supertype: PopupBaseOnWheel
@@ -17960,6 +17972,9 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Class: Reference
+          Target: ns=3;i=478
+          Direction: Forward
       - Name: Button5
         Type: Button
         Children:
@@ -18319,6 +18334,9 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Class: Reference
+    Target: ns=3;i=621
+    Direction: Forward
 - Name: PylonSideDeg
   Id: g=696eba6d775832dd3b4fd6242ce1c411
   Supertype: DataPopupBase
@@ -18955,6 +18973,9 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Class: Reference
+          Target: ns=3;i=478
+          Direction: Forward
       - Name: Button5
         Type: Button
         Children:
@@ -19314,6 +19335,9 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Class: Reference
+    Target: ns=3;i=621
+    Direction: Forward
 - Name: OpCabinWSpeed
   Id: g=5afc7c4dc3c7d56db9254b93d6f4c7f9
   Supertype: DataPopupBase
@@ -19950,6 +19974,9 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Class: Reference
+          Target: ns=3;i=478
+          Direction: Forward
       - Name: Button5
         Type: Button
         Children:
@@ -20309,6 +20336,9 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Class: Reference
+    Target: ns=3;i=621
+    Direction: Forward
 - Name: OpCabinWDirection
   Id: g=7fbf207f0d26043d5ddd9e0e6974db90
   Supertype: DataPopupBase
@@ -20945,6 +20975,9 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Class: Reference
+          Target: ns=3;i=478
+          Direction: Forward
       - Name: Button5
         Type: Button
         Children:
@@ -21304,6 +21337,9 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Class: Reference
+    Target: ns=3;i=621
+    Direction: Forward
 - Name: PresentTPH
   Id: g=09d58225abb2fb34daa52d9467076ba4
   Supertype: DataPopupBase
@@ -21940,6 +21976,9 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Class: Reference
+          Target: ns=3;i=478
+          Direction: Forward
       - Name: Button5
         Type: Button
         Children:
@@ -22309,6 +22348,9 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Class: Reference
+    Target: ns=3;i=621
+    Direction: Forward
 - Name: Current_TPH
   Id: g=6356ce5740344e1a62b716084ce50432
   Supertype: OverviewAllSystemPopup
@@ -24555,6 +24597,9 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Class: Reference
+          Target: ns=3;i=478
+          Direction: Forward
       - Name: Button5
         Type: Button
         Children:
@@ -24914,6 +24959,9 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Class: Reference
+    Target: ns=3;i=621
+    Direction: Forward
 - Name: TravelSpeedReff1
   Id: g=5762724537dc4fc224a519bbf70eaeb0
   Supertype: DataPopupBase
@@ -25550,6 +25598,9 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Class: Reference
+          Target: ns=3;i=478
+          Direction: Forward
       - Name: Button5
         Type: Button
         Children:
@@ -25909,6 +25960,9 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Class: Reference
+    Target: ns=3;i=621
+    Direction: Forward
 - Name: LuffSpeedReff2
   Id: g=23783a6da39f10fc27d16695dd42f25a
   Supertype: DataPopupBase
@@ -26545,6 +26599,9 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Class: Reference
+          Target: ns=3;i=478
+          Direction: Forward
       - Name: Button5
         Type: Button
         Children:
@@ -26904,6 +26961,9 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Class: Reference
+    Target: ns=3;i=621
+    Direction: Forward
 - Name: Electrical_TxTemp
   Id: g=e0aa5bbb6e6b07efdc70eab526eb7478
   Supertype: DataPopupBase
@@ -27555,6 +27615,9 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Class: Reference
+          Target: ns=3;i=478
+          Direction: Forward
       - Name: Button5
         Type: Button
         Children:
@@ -27914,6 +27977,9 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Class: Reference
+    Target: ns=3;i=621
+    Direction: Forward
 - Name: Electrical_ACB_Voltage
   Id: g=03bb777a5760f31f0226ea73735b2948
   Supertype: DataPopupBase
@@ -28565,6 +28631,9 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Class: Reference
+          Target: ns=3;i=478
+          Direction: Forward
       - Name: Button5
         Type: Button
         Children:
@@ -28924,6 +28993,9 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Class: Reference
+    Target: ns=3;i=621
+    Direction: Forward
 - Name: Electrical_ACB_VoltageL123
   Id: g=7deec0213a9c3fe79369edc71d30848f
   Supertype: DataPopupBase
@@ -29575,6 +29647,9 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Class: Reference
+          Target: ns=3;i=478
+          Direction: Forward
       - Name: Button5
         Type: Button
         Children:
@@ -29934,6 +30009,9 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Class: Reference
+    Target: ns=3;i=621
+    Direction: Forward
 - Name: Electrical_ACB_CurrentL2
   Id: g=038d7018d1078601e278285442512fba
   Supertype: DataPopupBase
@@ -30585,6 +30663,9 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Class: Reference
+          Target: ns=3;i=478
+          Direction: Forward
       - Name: Button5
         Type: Button
         Children:
@@ -30944,6 +31025,9 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Class: Reference
+    Target: ns=3;i=621
+    Direction: Forward
 - Name: Electrical_ACB_CurrentL123
   Id: g=dddaffb27b0093ce50dc50d29a5d453d
   Supertype: DataPopupBase
@@ -31595,6 +31679,9 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Class: Reference
+          Target: ns=3;i=478
+          Direction: Forward
       - Name: Button5
         Type: Button
         Children:
@@ -31954,6 +32041,9 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Class: Reference
+    Target: ns=3;i=621
+    Direction: Forward
 - Name: Electrical_ACB_ACB_MW
   Id: g=ecb28bb4e9b148e4ec4919c9063e5446
   Supertype: DataPopupBase
@@ -32605,6 +32695,9 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Class: Reference
+          Target: ns=3;i=478
+          Direction: Forward
       - Name: Button5
         Type: Button
         Children:
@@ -32964,6 +33057,9 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
+  - Class: Reference
+    Target: ns=3;i=621
+    Direction: Forward
 - Name: BoomCabinLeveling
   Id: g=da3da320f4c2e6c20c654b9d4da90f8f
   Supertype: PopupBaseOnWheel
