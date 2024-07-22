@@ -64,7 +64,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/SIG"
+                Value: ""
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -85,7 +85,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/PWR"
+                Value: ""
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -106,7 +106,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EN_L"
+                Value: ""
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -127,7 +127,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EN_H"
+                Value: ""
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -148,7 +148,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/INTL"
+                Value: ""
       - Name: Label12
         Type: Label
       - Name: Label13
@@ -197,7 +197,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/OK"
+                Value: ""
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -218,7 +218,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/AL_L"
+                Value: ""
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -239,7 +239,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/AL_H"
+                Value: ""
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -260,7 +260,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/WARN_L"
+                Value: ""
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -281,7 +281,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/WARN_H"
+                Value: ""
       - Name: Label12
         Type: Label
       - Name: Label13
@@ -314,20 +314,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Pre"
+          Value: {"LocaleId":"en-US","Text":"#####"}
       - Name: Label9
         Type: TextBox
         Children:
@@ -347,7 +334,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Pre"
+                Value: "#####"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -389,7 +376,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Pre"
+                Value: "#####"
       - Name: Label2
         Type: TextBox
         Children:
@@ -409,7 +396,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Pre"
+                Value: "#####"
       - Name: Label3
         Type: TextBox
         Children:
@@ -429,7 +416,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Pre"
+                Value: "#####"
       - Name: Label15
         Type: TextBox
         Children:
@@ -449,7 +436,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Pre"
+                Value: "#####"
       - Name: Label16
         Type: TextBox
         Children:
@@ -469,7 +456,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Pre"
+                Value: "#####"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -477,11 +464,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Warning_Low"
       - Name: Checkbox2
         Type: CheckBox
         Children:
@@ -489,23 +471,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Warning_High"
-      - Name: Checkbox3
-        Type: CheckBox
-        Children:
-        - Name: Checked
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Alarm_Low"
       - Name: Checkbox4
         Type: CheckBox
         Children:
@@ -513,11 +478,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Alarm_High"
       - Name: Checkbox5
         Type: CheckBox
         Children:
@@ -525,11 +485,13 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Repeat_Alarm"
+      - Name: Checkbox3
+        Type: CheckBox
+        Children:
+        - Name: Checked
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
 - Name: Force40
   Id: g=aefcc99503cc176f81b01f24cb0c6866
   Supertype: X_Detail_Force1
@@ -563,11 +525,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_OK"
       - Name: Checkbox2
         Type: CheckBox
         Children:
@@ -575,11 +532,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Warning"
       - Name: Checkbox3
         Type: CheckBox
         Children:
@@ -587,11 +539,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Warning"
       - Name: Checkbox4
         Type: CheckBox
         Children:
@@ -599,11 +546,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Alarm"
       - Name: Checkbox5
         Type: CheckBox
         Children:
@@ -611,11 +553,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Alarm"
 - Name: InOut41
   Id: g=eb882eaef7b45145fb3f4851d25ac0e3
   Supertype: X_Detail_In_Out1
@@ -679,7 +616,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/SIG"
+                Value: ""
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -700,7 +637,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/PWR"
+                Value: ""
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -721,7 +658,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EN_L"
+                Value: ""
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -742,7 +679,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EN_H"
+                Value: ""
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -763,7 +700,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/INTL"
+                Value: ""
       - Name: Label12
         Type: Label
       - Name: Label13
@@ -812,7 +749,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/OK"
+                Value: ""
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -833,7 +770,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/AL_L"
+                Value: ""
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -854,7 +791,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/AL_H"
+                Value: ""
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -875,7 +812,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/WARN_L"
+                Value: ""
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -896,7 +833,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/WARN_H"
+                Value: ""
       - Name: Label12
         Type: Label
       - Name: Label13
@@ -929,20 +866,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Pre"
+          Value: {"LocaleId":"en-US","Text":"#####"}
       - Name: Label9
         Type: TextBox
         Children:
@@ -962,7 +886,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Pre"
+                Value: "#####"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -1004,7 +928,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Pre"
+                Value: "#####"
       - Name: Label2
         Type: TextBox
         Children:
@@ -1024,7 +948,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Pre"
+                Value: "#####"
       - Name: Label3
         Type: TextBox
         Children:
@@ -1044,7 +968,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Pre"
+                Value: "#####"
       - Name: Label15
         Type: TextBox
         Children:
@@ -1064,7 +988,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Pre"
+                Value: "#####"
       - Name: Label16
         Type: TextBox
         Children:
@@ -1084,7 +1008,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Pre"
+                Value: "#####"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -1092,11 +1016,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Warning_Low"
       - Name: Checkbox2
         Type: CheckBox
         Children:
@@ -1104,23 +1023,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Warning_High"
-      - Name: Checkbox3
-        Type: CheckBox
-        Children:
-        - Name: Checked
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Alarm_Low"
       - Name: Checkbox4
         Type: CheckBox
         Children:
@@ -1128,11 +1030,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Alarm_High"
       - Name: Checkbox5
         Type: CheckBox
         Children:
@@ -1140,11 +1037,13 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Repeat_Alarm"
+      - Name: Checkbox3
+        Type: CheckBox
+        Children:
+        - Name: Checked
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
 - Name: Force41
   Id: g=8c76ab4e304c3d4029b85c700331b36d
   Supertype: X_Detail_Force1
@@ -1178,11 +1077,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_OK"
       - Name: Checkbox2
         Type: CheckBox
         Children:
@@ -1190,11 +1084,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Warning"
       - Name: Checkbox3
         Type: CheckBox
         Children:
@@ -1202,11 +1091,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Warning"
       - Name: Checkbox4
         Type: CheckBox
         Children:
@@ -1214,11 +1098,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Alarm"
       - Name: Checkbox5
         Type: CheckBox
         Children:
@@ -1226,11 +1105,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Alarm"
 - Name: InOut42
   Id: g=717e8fef51ef1bdc2524f418058dd5ae
   Supertype: X_Detail_In_Out1
@@ -1294,7 +1168,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/SIG"
+                Value: ""
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -1315,7 +1189,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/PWR"
+                Value: ""
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -1336,7 +1210,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EN_L"
+                Value: ""
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -1357,7 +1231,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EN_H"
+                Value: ""
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -1378,7 +1252,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/INTL"
+                Value: ""
       - Name: Label12
         Type: Label
       - Name: Label13
@@ -1427,7 +1301,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/OK"
+                Value: ""
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -1448,7 +1322,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/AL_L"
+                Value: ""
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -1469,7 +1343,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/AL_H"
+                Value: ""
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -1490,7 +1364,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/WARN_L"
+                Value: ""
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -1511,7 +1385,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/WARN_H"
+                Value: ""
       - Name: Label12
         Type: Label
       - Name: Label13
@@ -1544,20 +1418,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Pre"
+          Value: {"LocaleId":"en-US","Text":"#####"}
       - Name: Label9
         Type: TextBox
         Children:
@@ -1577,7 +1438,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Pre"
+                Value: "#####"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -1619,7 +1480,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Pre"
+                Value: "#####"
       - Name: Label2
         Type: TextBox
         Children:
@@ -1639,7 +1500,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Pre"
+                Value: "#####"
       - Name: Label3
         Type: TextBox
         Children:
@@ -1659,7 +1520,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Pre"
+                Value: "#####"
       - Name: Label15
         Type: TextBox
         Children:
@@ -1679,7 +1540,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Pre"
+                Value: "#####"
       - Name: Label16
         Type: TextBox
         Children:
@@ -1699,7 +1560,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Pre"
+                Value: "#####"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -1707,11 +1568,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Warning_Low"
       - Name: Checkbox2
         Type: CheckBox
         Children:
@@ -1719,23 +1575,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Warning_High"
-      - Name: Checkbox3
-        Type: CheckBox
-        Children:
-        - Name: Checked
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Alarm_Low"
       - Name: Checkbox4
         Type: CheckBox
         Children:
@@ -1743,11 +1582,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Alarm_High"
       - Name: Checkbox5
         Type: CheckBox
         Children:
@@ -1755,11 +1589,13 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Repeat_Alarm"
+      - Name: Checkbox3
+        Type: CheckBox
+        Children:
+        - Name: Checked
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
 - Name: Force42
   Id: g=eaf126c47844133e93dc9e9d169d3180
   Supertype: X_Detail_Force1
@@ -1793,11 +1629,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_OK"
       - Name: Checkbox2
         Type: CheckBox
         Children:
@@ -1805,11 +1636,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Warning"
       - Name: Checkbox3
         Type: CheckBox
         Children:
@@ -1817,11 +1643,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Warning"
       - Name: Checkbox4
         Type: CheckBox
         Children:
@@ -1829,11 +1650,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Alarm"
       - Name: Checkbox5
         Type: CheckBox
         Children:
@@ -1841,11 +1657,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Alarm"
 - Name: InOut43
   Id: g=1be4b55316e4d7ae3cd3d1d04856f261
   Supertype: X_Detail_In_Out1
@@ -1909,7 +1720,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/SIG"
+                Value: ""
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -1930,7 +1741,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/PWR"
+                Value: ""
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -1951,7 +1762,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EN_L"
+                Value: ""
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -1972,7 +1783,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EN_H"
+                Value: ""
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -1993,7 +1804,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/INTL"
+                Value: ""
       - Name: Label12
         Type: Label
       - Name: Label13
@@ -2042,7 +1853,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/OK"
+                Value: ""
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -2063,7 +1874,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/AL_L"
+                Value: ""
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -2084,7 +1895,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/AL_H"
+                Value: ""
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -2105,7 +1916,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/WARN_L"
+                Value: ""
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -2126,7 +1937,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/WARN_H"
+                Value: ""
       - Name: Label12
         Type: Label
       - Name: Label13
@@ -2159,20 +1970,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Pre"
+          Value: {"LocaleId":"en-US","Text":"#####"}
       - Name: Label9
         Type: TextBox
         Children:
@@ -2192,7 +1990,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Pre"
+                Value: "#####"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -2234,7 +2032,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Pre"
+                Value: "#####"
       - Name: Label2
         Type: TextBox
         Children:
@@ -2254,7 +2052,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Pre"
+                Value: "#####"
       - Name: Label3
         Type: TextBox
         Children:
@@ -2274,7 +2072,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Pre"
+                Value: "#####"
       - Name: Label15
         Type: TextBox
         Children:
@@ -2294,7 +2092,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Pre"
+                Value: "#####"
       - Name: Label16
         Type: TextBox
         Children:
@@ -2314,7 +2112,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Pre"
+                Value: "#####"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -2322,11 +2120,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Warning_Low"
       - Name: Checkbox2
         Type: CheckBox
         Children:
@@ -2334,23 +2127,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Warning_High"
-      - Name: Checkbox3
-        Type: CheckBox
-        Children:
-        - Name: Checked
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Alarm_Low"
       - Name: Checkbox4
         Type: CheckBox
         Children:
@@ -2358,11 +2134,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Alarm_High"
       - Name: Checkbox5
         Type: CheckBox
         Children:
@@ -2370,11 +2141,13 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Repeat_Alarm"
+      - Name: Checkbox3
+        Type: CheckBox
+        Children:
+        - Name: Checked
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
 - Name: Force43
   Id: g=924f2a90dac8730155785eb5352fcc2f
   Supertype: X_Detail_Force1
@@ -2408,11 +2181,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_OK"
       - Name: Checkbox2
         Type: CheckBox
         Children:
@@ -2420,11 +2188,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Warning"
       - Name: Checkbox3
         Type: CheckBox
         Children:
@@ -2432,11 +2195,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Warning"
       - Name: Checkbox4
         Type: CheckBox
         Children:
@@ -2444,11 +2202,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Alarm"
       - Name: Checkbox5
         Type: CheckBox
         Children:
@@ -2456,11 +2209,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Alarm"
 - Name: InOut44
   Id: g=89c782225fc2a262c5c1939a7d62abf2
   Supertype: X_Detail_In_Out1
@@ -2524,7 +2272,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/SIG"
+                Value: ""
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -2545,7 +2293,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/PWR"
+                Value: ""
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -2566,7 +2314,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EN_L"
+                Value: ""
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -2587,7 +2335,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EN_H"
+                Value: ""
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -2608,7 +2356,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/INTL"
+                Value: ""
       - Name: Label12
         Type: Label
       - Name: Label13
@@ -2657,7 +2405,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/OK"
+                Value: ""
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -2678,7 +2426,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/AL_L"
+                Value: ""
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -2699,7 +2447,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/AL_H"
+                Value: ""
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -2720,7 +2468,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/WARN_L"
+                Value: ""
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -2741,7 +2489,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/WARN_H"
+                Value: ""
       - Name: Label12
         Type: Label
       - Name: Label13
@@ -2774,20 +2522,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Pre"
+          Value: {"LocaleId":"en-US","Text":"#####"}
       - Name: Label9
         Type: TextBox
         Children:
@@ -2807,7 +2542,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Pre"
+                Value: "#####"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -2849,7 +2584,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Pre"
+                Value: "#####"
       - Name: Label2
         Type: TextBox
         Children:
@@ -2869,7 +2604,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Pre"
+                Value: "#####"
       - Name: Label3
         Type: TextBox
         Children:
@@ -2889,7 +2624,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Pre"
+                Value: "#####"
       - Name: Label15
         Type: TextBox
         Children:
@@ -2909,7 +2644,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Pre"
+                Value: "#####"
       - Name: Label16
         Type: TextBox
         Children:
@@ -2929,7 +2664,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Pre"
+                Value: "#####"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -2937,11 +2672,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Warning_Low"
       - Name: Checkbox2
         Type: CheckBox
         Children:
@@ -2949,23 +2679,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Warning_High"
-      - Name: Checkbox3
-        Type: CheckBox
-        Children:
-        - Name: Checked
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Alarm_Low"
       - Name: Checkbox4
         Type: CheckBox
         Children:
@@ -2973,11 +2686,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Alarm_High"
       - Name: Checkbox5
         Type: CheckBox
         Children:
@@ -2985,11 +2693,13 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Repeat_Alarm"
+      - Name: Checkbox3
+        Type: CheckBox
+        Children:
+        - Name: Checked
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
 - Name: Force44
   Id: g=4d7d3339ad75d8e4f710e57167c70229
   Supertype: X_Detail_Force1
@@ -3023,11 +2733,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_OK"
       - Name: Checkbox2
         Type: CheckBox
         Children:
@@ -3035,11 +2740,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Warning"
       - Name: Checkbox3
         Type: CheckBox
         Children:
@@ -3047,11 +2747,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Warning"
       - Name: Checkbox4
         Type: CheckBox
         Children:
@@ -3059,11 +2754,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Alarm"
       - Name: Checkbox5
         Type: CheckBox
         Children:
@@ -3071,11 +2761,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Alarm"
 - Name: InOut45
   Id: g=c18e7eadd38e432718106abccf828144
   Supertype: X_Detail_In_Out1
@@ -3139,7 +2824,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/SIG"
+                Value: ""
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -3160,7 +2845,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/PWR"
+                Value: ""
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -3181,7 +2866,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EN_L"
+                Value: ""
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -3202,7 +2887,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EN_H"
+                Value: ""
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -3223,7 +2908,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/INTL"
+                Value: ""
       - Name: Label12
         Type: Label
       - Name: Label13
@@ -3272,7 +2957,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/OK"
+                Value: ""
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -3293,7 +2978,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/AL_L"
+                Value: ""
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -3314,7 +2999,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/AL_H"
+                Value: ""
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -3335,7 +3020,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/WARN_L"
+                Value: ""
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -3356,7 +3041,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/WARN_H"
+                Value: ""
       - Name: Label12
         Type: Label
       - Name: Label13
@@ -3389,20 +3074,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Pre"
+          Value: {"LocaleId":"en-US","Text":"#####"}
       - Name: Label9
         Type: TextBox
         Children:
@@ -3422,7 +3094,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Pre"
+                Value: "#####"
       - Name: Label12
         Type: Label
       - Name: Label14
@@ -3464,7 +3136,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Pre"
+                Value: "#####"
       - Name: Label2
         Type: TextBox
         Children:
@@ -3484,7 +3156,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Pre"
+                Value: "#####"
       - Name: Label3
         Type: TextBox
         Children:
@@ -3504,7 +3176,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Pre"
+                Value: "#####"
       - Name: Label15
         Type: TextBox
         Children:
@@ -3524,7 +3196,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Pre"
+                Value: "#####"
       - Name: Label16
         Type: TextBox
         Children:
@@ -3544,7 +3216,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Pre"
+                Value: "#####"
       - Name: Checkbox1
         Type: CheckBox
         Children:
@@ -3552,11 +3224,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Warning_Low"
       - Name: Checkbox2
         Type: CheckBox
         Children:
@@ -3564,23 +3231,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Warning_High"
-      - Name: Checkbox3
-        Type: CheckBox
-        Children:
-        - Name: Checked
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Alarm_Low"
       - Name: Checkbox4
         Type: CheckBox
         Children:
@@ -3588,11 +3238,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Alarm_High"
       - Name: Checkbox5
         Type: CheckBox
         Children:
@@ -3600,11 +3245,13 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Repeat_Alarm"
+      - Name: Checkbox3
+        Type: CheckBox
+        Children:
+        - Name: Checked
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
 - Name: Force45
   Id: g=ad97a75985bb8ab24d731b9f1b5cb808
   Supertype: X_Detail_Force1
@@ -3638,11 +3285,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_OK"
       - Name: Checkbox2
         Type: CheckBox
         Children:
@@ -3650,11 +3292,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Warning"
       - Name: Checkbox3
         Type: CheckBox
         Children:
@@ -3662,11 +3299,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Warning"
       - Name: Checkbox4
         Type: CheckBox
         Children:
@@ -3674,11 +3306,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Alarm"
       - Name: Checkbox5
         Type: CheckBox
         Children:
@@ -3686,8 +3313,3 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Alarm"

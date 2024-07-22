@@ -1436,6 +1436,20 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
+      - Name: Label1
+        Type: TextBox
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"### s"}
+      - Name: Label2
+        Type: TextBox
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"### s"}
 - Name: TypeSelect3
   Id: g=2a4cb367abdb80f13e92202e52da188e
   Supertype: TypeSelect

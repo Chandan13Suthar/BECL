@@ -523,7 +523,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/SIG"
+                Value: ""
             - Name: TrueValue
               Type: BaseDataVariableType
               DataType: Color
@@ -535,7 +535,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -581,7 +581,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/PWR"
+                Value: ""
             - Name: TrueValue
               Type: BaseDataVariableType
               DataType: Color
@@ -593,7 +593,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -639,7 +639,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EN_L"
+                Value: ""
             - Name: TrueValue
               Type: BaseDataVariableType
               DataType: Color
@@ -651,7 +651,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -697,7 +697,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EN_H"
+                Value: ""
             - Name: TrueValue
               Type: BaseDataVariableType
               DataType: Color
@@ -709,7 +709,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -755,7 +755,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/INTL"
+                Value: ""
             - Name: TrueValue
               Type: BaseDataVariableType
               DataType: Color
@@ -767,7 +767,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Label12
         Type: Label
         Children:
@@ -1272,7 +1272,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/OK"
+                Value: ""
             - Name: TrueValue
               Type: BaseDataVariableType
               DataType: Color
@@ -1284,7 +1284,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -1330,7 +1330,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/AL_L"
+                Value: ""
             - Name: TrueValue
               Type: BaseDataVariableType
               DataType: Color
@@ -1342,7 +1342,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -1388,7 +1388,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/AL_H"
+                Value: ""
             - Name: TrueValue
               Type: BaseDataVariableType
               DataType: Color
@@ -1400,7 +1400,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -1446,7 +1446,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/WARN_L"
+                Value: ""
             - Name: TrueValue
               Type: BaseDataVariableType
               DataType: Color
@@ -1458,7 +1458,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -1504,7 +1504,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/WARN_H"
+                Value: ""
             - Name: TrueValue
               Type: BaseDataVariableType
               DataType: Color
@@ -1516,7 +1516,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Label12
         Type: Label
         Children:
@@ -1875,26 +1875,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"#"}
-          Children:
-          - Name: StringFormatter2
-            Type: StringFormatter
-            Children:
-            - Name: Format
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: {"LocaleId":"","Text":"{0:d}"}
-            - Name: ns=2;Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_Low_Pre"
+          Value: {"LocaleId":"en-US","Text":"#####"}
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -1950,7 +1931,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/EnableTime_High_Pre"
+                Value: "#####"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -2369,7 +2350,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_Low_Pre"
+                Value: "#####"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -2425,7 +2406,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/WarnDelay_High_Pre"
+                Value: "#####"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -2481,7 +2462,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_High_Pre"
+                Value: "#####"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -2537,7 +2518,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D32Z41_FP/AlarmDelay_Low_Pre"
+                Value: "#####"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -2593,7 +2574,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/RepeatTime_Pre"
+                Value: "#####"
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -2631,17 +2612,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Warning_Low"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -2674,17 +2644,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Warning_High"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -2710,49 +2669,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 30.0
-      - Name: Checkbox3
-        Type: CheckBox
-        Children:
-        - Name: Checked
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Alarm_Low"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":""}
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 48.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 247.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
       - Name: Checkbox4
         Type: CheckBox
         Children:
@@ -2760,17 +2676,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Alarm_High"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -2803,17 +2708,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Enable_Repeat_Alarm"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -2829,6 +2723,38 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 324.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 30.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 30.0
+      - Name: Checkbox3
+        Type: CheckBox
+        Children:
+        - Name: Checked
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 48.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 247.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -3193,17 +3119,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_OK"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -3236,17 +3151,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Warning"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -3279,17 +3183,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Warning"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -3322,17 +3215,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_Low_Alarm"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -3365,17 +3247,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101S01C71_FP/Force_High_Alarm"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -3950,7 +3821,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -4008,7 +3879,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -4066,7 +3937,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -4124,7 +3995,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -4182,7 +4053,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Label12
         Type: Label
         Children:
@@ -4699,7 +4570,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -4757,7 +4628,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -4815,7 +4686,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -4873,7 +4744,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -4931,7 +4802,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Label12
         Type: Label
         Children:
@@ -7360,7 +7231,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -7418,7 +7289,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -7476,7 +7347,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -7534,7 +7405,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -7592,7 +7463,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Label12
         Type: Label
         Children:
@@ -8109,7 +7980,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -8167,7 +8038,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -8225,7 +8096,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -8283,7 +8154,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -8341,7 +8212,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Label12
         Type: Label
         Children:
@@ -10770,7 +10641,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -10828,7 +10699,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -10886,7 +10757,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -10944,7 +10815,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -11002,7 +10873,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Label12
         Type: Label
         Children:
@@ -11519,7 +11390,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -11577,7 +11448,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -11635,7 +11506,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -11693,7 +11564,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -11751,7 +11622,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Label12
         Type: Label
         Children:
@@ -14650,7 +14521,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -14708,7 +14579,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -14766,7 +14637,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -14824,7 +14695,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -14882,7 +14753,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Label12
         Type: Label
         Children:
@@ -15399,7 +15270,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -15457,7 +15328,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -15515,7 +15386,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -15573,7 +15444,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -15631,7 +15502,7 @@ Children:
               DataType: Color
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: "#808080"
+              Value: "#ff0000"
       - Name: Label12
         Type: Label
         Children:

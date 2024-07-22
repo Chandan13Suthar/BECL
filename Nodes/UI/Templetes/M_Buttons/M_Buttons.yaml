@@ -102,3 +102,4 @@ Children:
         ReferenceType: HasParameter
         ModellingRule: Optional
         Value: "#ffa500"
+- File: Interlocks/Interlocks.yaml

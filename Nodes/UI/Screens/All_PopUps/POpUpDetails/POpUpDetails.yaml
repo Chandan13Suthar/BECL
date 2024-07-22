@@ -95,6 +95,24 @@ Children:
         Children:
         - Name: Label1
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -310,6 +328,24 @@ Children:
         Children:
         - Name: Label1
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -521,6 +557,24 @@ Children:
         Children:
         - Name: Label1
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -732,6 +786,24 @@ Children:
         Children:
         - Name: Label1
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -7844,6 +7916,24 @@ Children:
         Children:
         - Name: Label1
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -8055,6 +8145,24 @@ Children:
         Children:
         - Name: Label1
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -8266,6 +8374,24 @@ Children:
         Children:
         - Name: Label1
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -8493,31 +8619,18 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: ConditionalConverter1
-              Type: ConditionalConverter
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
               Children:
-              - Name: Condition
+              - Name: Source
                 Type: BaseDataVariableType
-                DataType: Boolean
+                DataType: BaseDataType
                 ReferenceType: HasSource
-                Value: false
                 Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101Y71C21_FB"
-              - Name: TrueValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Closed"}
-              - Name: FalseValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Opened"}
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -8739,6 +8852,24 @@ Children:
         Children:
         - Name: Label1
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -8966,7 +9097,7 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -8977,39 +9108,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101Y74C31_FB"
-              - Name: Pairs
-                Type: BaseObjectType
-                ModellingRule: None
-                Children:
-                - Name: Pair
-                  Type: ValueMapPair
-                  ModellingRule: None
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    ModellingRule: None
-                    Value: 0
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: String
-                    ModellingRule: None
-                    Value: "Stopped"
-                - Name: Pair1
-                  Type: ValueMapPair
-                  ModellingRule: None
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    ModellingRule: None
-                    Value: 1
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: String
-                    ModellingRule: None
-                    Value: "Running"
+                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -9279,31 +9378,18 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: ConditionalConverter1
-              Type: ConditionalConverter
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
               Children:
-              - Name: Condition
+              - Name: Source
                 Type: BaseDataVariableType
-                DataType: Boolean
+                DataType: BaseDataType
                 ReferenceType: HasSource
-                Value: false
                 Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101Y74C32"
-              - Name: TrueValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Running"}
-              - Name: FalseValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Stopped"}
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -9571,9 +9657,9 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"General Warning"}
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -9584,32 +9670,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101Y71C35_FB"
-              - Name: Pairs
-                Type: BaseObjectType
-                Children:
-                - Name: Pair
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    Value: 0
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "Stopped"
-                - Name: Pair1
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    Value: 1
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "Running"
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -9837,7 +9898,7 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -9848,39 +9909,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101Y71C34_FB"
-              - Name: Pairs
-                Type: BaseObjectType
-                ModellingRule: None
-                Children:
-                - Name: Pair
-                  Type: ValueMapPair
-                  ModellingRule: None
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    ModellingRule: None
-                    Value: 0
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: String
-                    ModellingRule: None
-                    Value: "Stopped"
-                - Name: Pair1
-                  Type: ValueMapPair
-                  ModellingRule: None
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    ModellingRule: None
-                    Value: 1
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: String
-                    ModellingRule: None
-                    Value: "Running"
+                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -10190,9 +10219,9 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"General Warning"}
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -10203,32 +10232,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101Y71C33_FB"
-              - Name: Pairs
-                Type: BaseObjectType
-                Children:
-                - Name: Pair
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    Value: 0
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "Stopped"
-                - Name: Pair1
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    Value: 1
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "Running"
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -10496,9 +10500,9 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"General Warning"}
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -10509,32 +10513,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101Y71C32_FB"
-              - Name: Pairs
-                Type: BaseObjectType
-                Children:
-                - Name: Pair
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    Value: 0
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "Stopped"
-                - Name: Pair1
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    Value: 1
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "Running"
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -10762,7 +10741,7 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -10773,39 +10752,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101Y71C31_FB"
-              - Name: Pairs
-                Type: BaseObjectType
-                ModellingRule: None
-                Children:
-                - Name: Pair
-                  Type: ValueMapPair
-                  ModellingRule: None
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    ModellingRule: None
-                    Value: 0
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: String
-                    ModellingRule: None
-                    Value: "Stopped"
-                - Name: Pair1
-                  Type: ValueMapPair
-                  ModellingRule: None
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    ModellingRule: None
-                    Value: 1
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: String
-                    ModellingRule: None
-                    Value: "Running"
+                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -11075,7 +11022,7 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -11086,39 +11033,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D71T43"
-              - Name: Pairs
-                Type: BaseObjectType
-                ModellingRule: None
-                Children:
-                - Name: Pair
-                  Type: ValueMapPair
-                  ModellingRule: None
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    ModellingRule: None
-                    Value: 0
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: String
-                    ModellingRule: None
-                    Value: "Stopped"
-                - Name: Pair1
-                  Type: ValueMapPair
-                  ModellingRule: None
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    ModellingRule: None
-                    Value: 1
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: String
-                    ModellingRule: None
-                    Value: "Running"
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -11346,7 +11261,7 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -11357,39 +11272,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D71T42"
-              - Name: Pairs
-                Type: BaseObjectType
-                ModellingRule: None
-                Children:
-                - Name: Pair
-                  Type: ValueMapPair
-                  ModellingRule: None
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    ModellingRule: None
-                    Value: 0
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: String
-                    ModellingRule: None
-                    Value: "Stopped"
-                - Name: Pair1
-                  Type: ValueMapPair
-                  ModellingRule: None
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: UInt32
-                    ModellingRule: None
-                    Value: 1
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: String
-                    ModellingRule: None
-                    Value: "Running"
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -11617,31 +11500,18 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: ConditionalConverter1
-              Type: ConditionalConverter
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
               Children:
-              - Name: Condition
+              - Name: Source
                 Type: BaseDataVariableType
-                DataType: Boolean
+                DataType: BaseDataType
                 ReferenceType: HasSource
-                Value: false
                 Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D71T42"
-              - Name: TrueValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Running"}
-              - Name: FalseValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Stopped"}
+                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -11929,31 +11799,18 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: ConditionalConverter1
-              Type: ConditionalConverter
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
               Children:
-              - Name: Condition
+              - Name: Source
                 Type: BaseDataVariableType
-                DataType: Boolean
+                DataType: BaseDataType
                 ReferenceType: HasSource
-                Value: false
                 Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D71T43"
-              - Name: TrueValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Running"}
-              - Name: FalseValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Stopped"}
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -12181,31 +12038,18 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: ConditionalConverter1
-              Type: ConditionalConverter
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
               Children:
-              - Name: Condition
+              - Name: Source
                 Type: BaseDataVariableType
-                DataType: Boolean
+                DataType: BaseDataType
                 ReferenceType: HasSource
-                Value: false
                 Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101Y71C31_FB"
-              - Name: TrueValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Pressed"}
-              - Name: FalseValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Released"}
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -12433,31 +12277,18 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: ConditionalConverter1
-              Type: ConditionalConverter
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
               Children:
-              - Name: Condition
+              - Name: Source
                 Type: BaseDataVariableType
-                DataType: Boolean
+                DataType: BaseDataType
                 ReferenceType: HasSource
-                Value: false
                 Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101Y71C11_FB"
-              - Name: TrueValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Opened"}
-              - Name: FalseValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Closed"}
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -12685,31 +12516,18 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: ConditionalConverter1
-              Type: ConditionalConverter
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
               Children:
-              - Name: Condition
+              - Name: Source
                 Type: BaseDataVariableType
-                DataType: Boolean
+                DataType: BaseDataType
                 ReferenceType: HasSource
-                Value: false
                 Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101Y71C31_FB"
-              - Name: TrueValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Opened"}
-              - Name: FalseValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Closed"}
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -12937,31 +12755,18 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: ConditionalConverter1
-              Type: ConditionalConverter
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
               Children:
-              - Name: Condition
+              - Name: Source
                 Type: BaseDataVariableType
-                DataType: Boolean
+                DataType: BaseDataType
                 ReferenceType: HasSource
-                Value: false
                 Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D72Z45_FB"
-              - Name: TrueValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Running"}
-              - Name: FalseValue
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Stopped"}
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:
@@ -14167,6 +13972,24 @@ Children:
         Children:
         - Name: Label1
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter2
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
       - Name: Label1
         Type: Label
         Children:

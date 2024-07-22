@@ -115,7 +115,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101D31Z45_FP/SIG"
+                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -5622,7 +5622,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Travel/Popother/InOut34"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Travel/Popother/Force34"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId

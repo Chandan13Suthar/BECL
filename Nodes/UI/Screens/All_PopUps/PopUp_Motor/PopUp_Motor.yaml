@@ -161,10 +161,126 @@ Children:
           Type: BaseDataVariableType
           DataType: ResourceUri
           Value: "ns=7;%PROJECTDIR%/Pima Logo 1 (1).png"
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 5.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 5.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 80.0
       - Name: Rectangle1
         Type: Rectangle
         Children:
         - Name: Label1
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -826.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -400.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/INTERLOCK_231ST101M02"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 184.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+        - Name: Label4
           Type: Label
           Children:
           - Name: Text
@@ -184,6 +300,53 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -201,6 +364,51 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -446.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
       - Name: Label1
         Type: Label
         Children:
@@ -256,7 +464,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M1/Main_Ctrl_other2"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M1 231ST101M02 BUCKET WHELL OVERVIEW/Main_Ctrl_other2"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -297,6 +505,11 @@ Children:
               Type: PropertyType
               DataType: UInt16
               Value: 0
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Main\nCtrl."}
       - Name: Button2
         Type: Button
         Children:
@@ -336,7 +549,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M1/Diag3"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M1 231ST101M02 BUCKET WHELL OVERVIEW/Diag3"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -377,6 +590,16 @@ Children:
               Type: PropertyType
               DataType: UInt16
               Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 125.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 725.0
       - Name: Button4
         Type: Button
         Children:
@@ -416,7 +639,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M1/Diag4"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M1 231ST101M02 BUCKET WHELL OVERVIEW/Diag4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -457,6 +680,16 @@ Children:
               Type: PropertyType
               DataType: UInt16
               Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 229.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 725.0
       - Name: Rectangle6
         Type: Rectangle
         Children:
@@ -882,7 +1115,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M1/Main_Ctrl_other2"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M1 231ST101M02 BUCKET WHELL OVERVIEW/Main_Ctrl_other2"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -940,7 +1173,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M1/Main_Ctrl_other2"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M1 231ST101M02 BUCKET WHELL OVERVIEW/Motion_Detector6"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1030,7 +1263,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M1/Type_Select1"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M1 231ST101M02 BUCKET WHELL OVERVIEW/Type_Select1"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1110,7 +1343,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M1/Analog_Scale1"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M1 231ST101M02 BUCKET WHELL OVERVIEW/Analog_Scale1"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1263,19 +1496,6 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -1293,6 +1513,152 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/INTERLOCK_231ST101M03"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M03"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -1363,7 +1729,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M2/Main_Ctrl_other3"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M2 231ST101M03 LUBE BW OVERVIEW/Main_Ctrl_other3"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1443,7 +1809,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M2/Diag5"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M2 231ST101M03 LUBE BW OVERVIEW/Diag5"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1523,7 +1889,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M2/Diag6"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M2 231ST101M03 LUBE BW OVERVIEW/Diag6"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1835,7 +2201,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M2/Main_Ctrl_other3"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M2 231ST101M03 LUBE BW OVERVIEW/Main_Ctrl_other3"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -1893,7 +2259,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M2/Motion_Detector7"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M2 231ST101M03 LUBE BW OVERVIEW/Motion_Detector7"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1973,7 +2339,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M2/Type_Select2"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M2 231ST101M03 LUBE BW OVERVIEW/Type_Select2"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2053,7 +2419,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M2/Analog_Scale2"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M2 231ST101M03 LUBE BW OVERVIEW/Analog_Scale2"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2206,19 +2572,6 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -2236,6 +2589,217 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -656.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -340.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/INTERLOCK_231ST101M01"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 264.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 395.0
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M01"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -456.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
       - Name: Label1
         Type: Label
       - Name: Label2
@@ -2279,7 +2843,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M3/Main_Ctrl_other4"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M3 231ST101M01 HPP BW&&SI - OVERVIEW/Main_Ctrl_other4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2359,7 +2923,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M3/Diag7"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M3 231ST101M01 HPP BW&&SI - OVERVIEW/Diag7"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2439,7 +3003,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M3/Diag8"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M3 231ST101M01 HPP BW&&SI - OVERVIEW/Diag8"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2741,7 +3305,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M3/Main_Ctrl_other4"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M3 231ST101M01 HPP BW&&SI - OVERVIEW/Main_Ctrl_other4"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -2799,7 +3363,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M3/Motion_Detector8"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M3 231ST101M01 HPP BW&&SI - OVERVIEW/Motion_Detector8"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2879,7 +3443,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M3/Type_Select3"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M3 231ST101M01 HPP BW&&SI - OVERVIEW/Type_Select3"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2959,7 +3523,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M3/Analog_Scale3"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M3 231ST101M01 HPP BW&&SI - OVERVIEW/Analog_Scale3"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -3112,19 +3676,6 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -3142,6 +3693,152 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/INTERLOCK_231ST101M11"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M11"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -3197,7 +3894,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M4/Main_Ctrl_other5"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M4 231ST101M11 BOOM CON OVERVIEW/Main_Ctrl_other5"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -3277,7 +3974,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M4/Diag9"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M4 231ST101M11 BOOM CON OVERVIEW/Diag9"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -3357,7 +4054,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M4/Diag10"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M4 231ST101M11 BOOM CON OVERVIEW/Diag10"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -3659,7 +4356,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M4/Main_Ctrl_other5"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M4 231ST101M11 BOOM CON OVERVIEW/Main_Ctrl_other5"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -3717,7 +4414,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M4/Motion_Detector9"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M4 231ST101M11 BOOM CON OVERVIEW/Motion_Detector9"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -3797,7 +4494,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M4/Type_Select4"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M4 231ST101M11 BOOM CON OVERVIEW/Type_Select4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -3877,7 +4574,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M4/Analog_Scale4"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M4 231ST101M11 BOOM CON OVERVIEW/Analog_Scale4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -4030,19 +4727,6 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -4060,6 +4744,152 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/INTERLOCK_231ST101M22"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M22"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -4115,7 +4945,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M8/Main_Ctrl_other9"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M8 231ST101M22 LUBE SLEW OVERVIEW/Main_Ctrl_other9"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -4195,7 +5025,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M8/Diag17"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M8 231ST101M22 LUBE SLEW OVERVIEW/Diag17"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -4275,7 +5105,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M8/Diag18"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M8 231ST101M22 LUBE SLEW OVERVIEW/Diag18"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -4577,7 +5407,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M7/Main_Ctrl_other8"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M7 231ST101M32 LUBE TRAVEL OVERVIEW/Main_Ctrl_other8"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -4596,6 +5426,11 @@ Children:
         - Class: Reference
           Target: ns=3;i=478
           Direction: Forward
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 155.0
       - Name: Button5
         Type: Button
         Children:
@@ -4635,7 +5470,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M8/Motion_Detector13"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M8 231ST101M22 LUBE SLEW OVERVIEW/Motion_Detector13"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -4715,7 +5550,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M8/Type_Select8"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M8 231ST101M22 LUBE SLEW OVERVIEW/Type_Select8"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -4795,7 +5630,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M8/Analog_Scale8"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M8 231ST101M22 LUBE SLEW OVERVIEW/Analog_Scale8"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -4948,6 +5783,30 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
             - Name: KeyValueConverter1
               Type: ValueMapConverter
@@ -4978,6 +5837,135 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 294.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M32"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -5033,7 +6021,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M7/Main_Ctrl_other8"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M7 231ST101M32 LUBE TRAVEL OVERVIEW/Main_Ctrl_other8"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -5113,7 +6101,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M7/Diag15"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M7 231ST101M32 LUBE TRAVEL OVERVIEW/Diag15"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -5193,7 +6181,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M7/Diag16"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M7 231ST101M32 LUBE TRAVEL OVERVIEW/Diag16"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -5495,7 +6483,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M8/Main_Ctrl_other9"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M8 231ST101M22 LUBE SLEW OVERVIEW/Main_Ctrl_other9"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -5553,7 +6541,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M7/Motion_Detector12"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M7 231ST101M32 LUBE TRAVEL OVERVIEW/Motion_Detector12"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -5633,7 +6621,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M7/Type_Select7"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M7 231ST101M32 LUBE TRAVEL OVERVIEW/Type_Select7"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -5713,7 +6701,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M7/Analog_Scale7"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M7 231ST101M32 LUBE TRAVEL OVERVIEW/Analog_Scale7"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -5866,19 +6854,6 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -5896,6 +6871,152 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/INTERLOCK_231ST101M10"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M10"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -5951,7 +7072,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M5/Main_Ctrl_other6"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M5 231ST101M10 HYDRAULIC PUMP BC OVERVIEW/Main_Ctrl_other6"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -6031,7 +7152,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M5/Diag11"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M5 231ST101M10 HYDRAULIC PUMP BC OVERVIEW/Diag11"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -6111,7 +7232,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M5/Diag12"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M5 231ST101M10 HYDRAULIC PUMP BC OVERVIEW/Diag12"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -6413,7 +7534,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M5/Main_Ctrl_other6"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M5 231ST101M10 HYDRAULIC PUMP BC OVERVIEW/Main_Ctrl_other6"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -6471,7 +7592,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M5/Motion_Detector10"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M5 231ST101M10 HYDRAULIC PUMP BC OVERVIEW/Motion_Detector10"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -6551,7 +7672,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M5/Type_Select5"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M5 231ST101M10 HYDRAULIC PUMP BC OVERVIEW/Type_Select5"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -6631,7 +7752,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M5/Analog_Scale5"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M5 231ST101M10 HYDRAULIC PUMP BC OVERVIEW/Analog_Scale5"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -6784,19 +7905,6 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -6814,6 +7922,152 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/INTERLOCK_231ST101M16"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M16"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -6869,7 +8123,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M6/Main_Ctrl_other7"
+                  Value: "/Objects/BECL/UI/Templetes/231ST101M16 SKIRT LIFTING 1 OVERVIEW - BOOM/Main_Ctrl_other28"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -6949,7 +8203,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M6/Diag13"
+                  Value: "/Objects/BECL/UI/Templetes/231ST101M16 SKIRT LIFTING 1 OVERVIEW - BOOM/Diag1Wheel6"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -7029,7 +8283,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M6/Diag14"
+                  Value: "/Objects/BECL/UI/Templetes/231ST101M16 SKIRT LIFTING 1 OVERVIEW - BOOM/Diag2Wheel6"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -7389,7 +8643,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M6/Motion_Detector11"
+                  Value: "/Objects/BECL/UI/Templetes/231ST101M16 SKIRT LIFTING 1 OVERVIEW - BOOM/Motion_Detector27"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -7469,7 +8723,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M6/Type_Select6"
+                  Value: "/Objects/BECL/UI/Templetes/231ST101M16 SKIRT LIFTING 1 OVERVIEW - BOOM/Motion_Detector27"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -7549,7 +8803,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M6/Analog_Scale6"
+                  Value: "/Objects/BECL/UI/Templetes/231ST101M16 SKIRT LIFTING 1 OVERVIEW - BOOM/AnalogScale6"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -7702,19 +8956,6 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -7732,6 +8973,152 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/INTERLOCK_231ST101M61"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M61"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -7787,7 +9174,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M10/Main_Ctrl_other11"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M10 231ST101M61 INTERMEDIATE OVERVIEW/Main_Ctrl_other11"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -7867,7 +9254,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M10/Diag21"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M10 231ST101M61 INTERMEDIATE OVERVIEW/Diag21"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -7947,7 +9334,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M10/Diag22"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M10 231ST101M61 INTERMEDIATE OVERVIEW/Diag22"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -8249,7 +9636,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M10/Main_Ctrl_other11"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M10 231ST101M61 INTERMEDIATE OVERVIEW/Main_Ctrl_other11"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -8307,7 +9694,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M10/Motion_Detector15"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M10 231ST101M61 INTERMEDIATE OVERVIEW/Motion_Detector15"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -8387,7 +9774,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M10/Type_Select10"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M10 231ST101M61 INTERMEDIATE OVERVIEW/Type_Select10"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -8467,7 +9854,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M10/Analog_Scale10"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M10 231ST101M61 INTERMEDIATE OVERVIEW/Analog_Scale10"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -8620,19 +10007,6 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -8650,6 +10024,152 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/INTERLOCK_231ST101M21"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M21"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -8705,7 +10225,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M9/Main_Ctrl_other10"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M9 231ST101M21 SLEW DRIVE OVERVIEW/Main_Ctrl_other10"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -8785,7 +10305,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Templetes/PopUploader/Diag1"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M9 231ST101M21 SLEW DRIVE OVERVIEW/Diag19"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -8865,7 +10385,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Templetes/PopUploader/Diag2"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M9 231ST101M21 SLEW DRIVE OVERVIEW/Diag20"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -9167,7 +10687,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M9/Main_Ctrl_other10"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M9 231ST101M21 SLEW DRIVE OVERVIEW/Main_Ctrl_other10"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -9225,7 +10745,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Templetes/PopUploader/Main_Ctrl"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M9 231ST101M21 SLEW DRIVE OVERVIEW/Motion_Detector14"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -9305,7 +10825,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Templetes/PopUploader/Diag1"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M9 231ST101M21 SLEW DRIVE OVERVIEW/Type_Select9"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -9385,7 +10905,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Templetes/PopUploader/Diag2"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M9 231ST101M21 SLEW DRIVE OVERVIEW/Analog_Scale9"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -9538,19 +11058,6 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -9568,6 +11075,172 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/INTERLOCK_231ST101M31"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 214.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M31"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -9623,7 +11296,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M11/Main_Ctrl_other12"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M11 231ST101M31 LONG TRAVEL OVERVIEW/Main_Ctrl_other12"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -9703,7 +11376,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M11/Diag23"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M11 231ST101M31 LONG TRAVEL OVERVIEW/Diag23"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -9783,7 +11456,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M11/Diag24"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M11 231ST101M31 LONG TRAVEL OVERVIEW/Diag24"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -10085,7 +11758,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M11/Main_Ctrl_other12"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M11 231ST101M31 LONG TRAVEL OVERVIEW/Main_Ctrl_other12"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -10143,7 +11816,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M11/Motion_Detector16"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M11 231ST101M31 LONG TRAVEL OVERVIEW/Motion_Detector16"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -10223,7 +11896,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M11/Type_Select11"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M11 231ST101M31 LONG TRAVEL OVERVIEW/Type_Select11"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -10303,7 +11976,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M11/Analog_Scale11"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M11 231ST101M31 LONG TRAVEL OVERVIEW/Analog_Scale11"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -10456,19 +12129,6 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -10486,6 +12146,172 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/INTERLOCK_231ST101M41"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 104.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M41"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -10541,7 +12367,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M12/Main_Ctrl_other13"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M12 231ST101M41 RAILCLAMP OVERVIEW/Main_Ctrl_other13"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -10621,7 +12447,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M12/Diag25"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M12 231ST101M41 RAILCLAMP OVERVIEW/Diag25"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -10701,7 +12527,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M12/Diag26"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M12 231ST101M41 RAILCLAMP OVERVIEW/Diag26"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -11003,7 +12829,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M12/Main_Ctrl_other13"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M12 231ST101M41 RAILCLAMP OVERVIEW/Main_Ctrl_other13"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -11061,7 +12887,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M12/Motion_Detector17"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M12 231ST101M41 RAILCLAMP OVERVIEW/Motion_Detector17"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -11141,7 +12967,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M12/Type_Select12"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M12 231ST101M41 RAILCLAMP OVERVIEW/Type_Select12"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -11221,7 +13047,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M12/Analog_Scale12"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M12 231ST101M41 RAILCLAMP OVERVIEW/Analog_Scale12"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -11374,19 +13200,6 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -11404,6 +13217,172 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/INTERLOCK_231ST101M51"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 94.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M51"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -11459,7 +13438,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M13/Main_Ctrl_other14"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M13 231ST101M51 PCRD OVERVIEW/Main_Ctrl_other14"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -11539,7 +13518,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M13/Diag27"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M13 231ST101M51 PCRD OVERVIEW/Diag27"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -11619,7 +13598,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M13/Diag28"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M13 231ST101M51 PCRD OVERVIEW/Diag28"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -11931,7 +13910,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M13/Main_Ctrl_other14"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M13 231ST101M51 PCRD OVERVIEW/Main_Ctrl_other14"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -11989,7 +13968,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M13/Motion_Detector18"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M13 231ST101M51 PCRD OVERVIEW/Motion_Detector18"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -12069,7 +14048,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M13/Type_Select13"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M13 231ST101M51 PCRD OVERVIEW/Type_Select13"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -12149,7 +14128,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M13/Analog_Scale13"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M13 231ST101M51 PCRD OVERVIEW/Analog_Scale13"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -12302,19 +14281,6 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -12332,6 +14298,152 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/INTERLOCK_231ST101M52"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M52"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -12387,7 +14499,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M14/Main_Ctrl_other15"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M14 231ST101M52 CCRD OVERVIEW/Main_Ctrl_other15"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -12467,7 +14579,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M14/Diag29"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M14 231ST101M52 CCRD OVERVIEW/Diag29"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -12547,7 +14659,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M14/Diag30"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M14 231ST101M52 CCRD OVERVIEW/Diag30"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -12849,7 +14961,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M14/Main_Ctrl_other15"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M14 231ST101M52 CCRD OVERVIEW/Main_Ctrl_other15"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -12912,7 +15024,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M14/Motion_Detector19"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M14 231ST101M52 CCRD OVERVIEW/Motion_Detector19"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -12992,7 +15104,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M14/Type_Select14"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M14 231ST101M52 CCRD OVERVIEW/Type_Select14"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -13072,7 +15184,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M14/Analog_Scale14"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M14 231ST101M52 CCRD OVERVIEW/Analog_Scale14"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -13225,19 +15337,6 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: ""
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -13255,6 +15354,172 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/INTERLOCK_231ST101M62"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 274.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M62"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -13310,7 +15575,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M15/Main_Ctrl_other16"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M15 231ST101M62 VIBRATING FEEDER OVERVIEW/Main_Ctrl_other16"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -13390,7 +15655,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M15/Diag31"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M15 231ST101M62 VIBRATING FEEDER OVERVIEW/Diag31"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -13470,7 +15735,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M15/Diag32"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M15 231ST101M62 VIBRATING FEEDER OVERVIEW/Diag32"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -13772,7 +16037,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M15/Main_Ctrl_other16"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M15 231ST101M62 VIBRATING FEEDER OVERVIEW/Main_Ctrl_other16"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -13835,7 +16100,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M15/Motion_Detector20"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M15 231ST101M62 VIBRATING FEEDER OVERVIEW/Motion_Detector20"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -13915,7 +16180,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M15/Type_Select15"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M15 231ST101M62 VIBRATING FEEDER OVERVIEW/Type_Select15"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -13995,7 +16260,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M15/Analog_Scale15"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M15 231ST101M62 VIBRATING FEEDER OVERVIEW/Analog_Scale15"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -14148,6 +16413,30 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
             - Name: KeyValueConverter1
               Type: ValueMapConverter
@@ -14178,6 +16467,115 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M74"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -14233,7 +16631,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M16/Main_Ctrl_other24"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M16 231ST101M74 CABIN LEVELING BOOM/Main_Ctrl_other24"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -14313,7 +16711,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M16/Diag33"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M16 231ST101M74 CABIN LEVELING BOOM/Diag33"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -14393,7 +16791,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M16/Diag34"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M16 231ST101M74 CABIN LEVELING BOOM/Diag34"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -14788,7 +17186,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M16/Main_Ctrl_other24"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M16 231ST101M74 CABIN LEVELING BOOM/Main_Ctrl_other24"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -14846,7 +17244,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M16/Motion_Detector21"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M16 231ST101M74 CABIN LEVELING BOOM/Motion_Detector21"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -14926,7 +17324,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M16/Type_Select16"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M16 231ST101M74 CABIN LEVELING BOOM/Type_Select16"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -15006,7 +17404,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M16/Analog_Scale16"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M16 231ST101M74 CABIN LEVELING BOOM/Analog_Scale16"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -15159,6 +17557,30 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
             - Name: KeyValueConverter1
               Type: ValueMapConverter
@@ -15189,6 +17611,115 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M73"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -15244,7 +17775,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M17/Main_Ctrl_other25"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M17 231ST101M73 LUFF AIR COOLER - LUFF/Main_Ctrl_other25"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -15799,7 +18330,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M17/Main_Ctrl_other25"
+          Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M17 231ST101M73 LUFF AIR COOLER - LUFF/Main_Ctrl_other25"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -16170,6 +18701,30 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
             - Name: KeyValueConverter1
               Type: ValueMapConverter
@@ -16200,6 +18755,115 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M71"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -16255,7 +18919,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M16/Main_Ctrl_other24"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M20 231ST101M71 LUFF DRIVE - LUFF/Main_Ctrl_other29"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -16335,7 +18999,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Templetes/PopUploader/Diag1"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M20 231ST101M71 LUFF DRIVE - LUFF/Diag41"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -16415,7 +19079,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Templetes/PopUploader/Diag2"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M20 231ST101M71 LUFF DRIVE - LUFF/Diag42"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -16868,7 +19532,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Templetes/PopUploader/Main_Ctrl"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M20 231ST101M71 LUFF DRIVE - LUFF/Motion_Detector28"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -16948,7 +19612,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Templetes/PopUploader/Diag1"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M20 231ST101M71 LUFF DRIVE - LUFF/Type_Select20"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -17028,7 +19692,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Templetes/PopUploader/Analog_Scale"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M20 231ST101M71 LUFF DRIVE - LUFF/Analog_Scale20"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -17181,6 +19845,30 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
             - Name: KeyValueConverter1
               Type: ValueMapConverter
@@ -17211,6 +19899,115 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/STA_231ST101M72"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Auto"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Manual"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Local"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffff00"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: ""
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#ffff00"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#f98498"
       - Name: Label1
         Type: Label
         Children:
@@ -17266,7 +20063,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M16/Main_Ctrl_other24"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M21 231ST101M72 LUFF OIL CIRCULATION - LUFF/Main_Ctrl_other30"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -17346,7 +20143,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Templetes/PopUploader/Diag1"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M21 231ST101M72 LUFF OIL CIRCULATION - LUFF/Diag43"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -17426,7 +20223,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Templetes/PopUploader/Diag2"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M21 231ST101M72 LUFF OIL CIRCULATION - LUFF/Diag44"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -17879,7 +20676,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Templetes/PopUploader/Main_Ctrl"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M21 231ST101M72 LUFF OIL CIRCULATION - LUFF/Motion_Detector29"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -17959,7 +20756,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Templetes/PopUploader/Diag1"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M21 231ST101M72 LUFF OIL CIRCULATION - LUFF/Type_Select21"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -18039,7 +20836,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/BECL/UI/Templetes/PopUploader/Analog_Scale"
+                  Value: "/Objects/BECL/UI/Screens/All PopUps/Inter Popup/M21 231ST101M72 LUFF OIL CIRCULATION - LUFF/Analog_Scale21"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId

@@ -33,8 +33,8 @@ Children:
 - File: Electrical_ACB_ACB_MW/Electrical_ACB_ACB_MW.yaml
 - File: BoomCabinLeveling/BoomCabinLeveling.yaml
 - File: BoomSkritLifting1/BoomSkritLifting1.yaml
-- File: BoomBoomConveyor/BoomBoomConveyor.yaml
-- File: BoomHydraulicPumpBC/BoomHydraulicPumpBC.yaml
+- File: 231ST101M11_BoomBoomConveyor_BOOM/231ST101M11_BoomBoomConveyor_BOOM.yaml
+- File: 231ST101M10_BoomHydraulicPumpBC_BOOM/231ST101M10_BoomHydraulicPumpBC_BOOM.yaml
 - File: BoomHydraulicSystem/BoomHydraulicSystem.yaml
 - File: BoomBoomConveyor1/BoomBoomConveyor1.yaml
 - File: BoomPileDetection/BoomPileDetection.yaml
