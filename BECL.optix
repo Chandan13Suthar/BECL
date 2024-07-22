@@ -40,15 +40,15 @@ Project:
    Module: FTOptix.RAEtherNetIP
    Version: 2.1
  Statistics:
-  TotalNodeCount: 260899
-  Objects: 67666
-  ObjectTypes: 1505
-  Variables: 191488
-  VariableTypes: 120
-  DataTypes: 120
+  TotalNodeCount: 268480
+  Objects: 68078
+  ObjectTypes: 1514
+  Variables: 198646
+  VariableTypes: 121
+  DataTypes: 121
   Methods: 0
   References: 1081
   ReferenceTypes: 0
-  Files: 158
+  Files: 159
  Nodes:
  - File: Nodes/BECL.yaml

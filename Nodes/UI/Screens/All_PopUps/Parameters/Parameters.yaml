@@ -762,11 +762,31 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 416.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 20.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 75.0
+          Value: 85.0
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -776,7 +796,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -315.0
+          Value: -5.0
         - Name: Visible
           Type: BaseDataVariableType
           DataType: Boolean
@@ -1393,11 +1413,31 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: ""
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 486.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 160.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 75.0
+          Value: 85.0
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -1407,12 +1447,17 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -315.0
+          Value: 5.0
         - Name: Visible
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
           Value: false
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 600.0
       - Name: Label1
         Type: Label
         Children:
@@ -1984,6 +2029,16 @@ Children:
           Type: BaseDataVariableType
           DataType: ResourceUri
           Value: "ns=7;%PROJECTDIR%/Pima Logo 1 (1).png"
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 76.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 5.0
       - Name: Rectangle1
         Type: Rectangle
         Children:
@@ -12737,7 +12792,7 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -12748,7 +12803,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: ""
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BWSR_ST_IND01_FB"
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -12983,7 +13038,7 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -12994,7 +13049,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: ""
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BWSR_ST_IND02_FB"
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -13229,7 +13284,7 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -13240,7 +13295,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: ""
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BWSR_ST_IND03_FB"
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -13475,7 +13530,7 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -13486,7 +13541,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: ""
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BWSR_ST_IND04_FB"
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -13721,7 +13776,7 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -13732,7 +13787,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: ""
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BWSR_ST_IND05_FB"
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -13967,7 +14022,7 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -13978,7 +14033,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: ""
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BWSR_RE_IND01_FB"
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -14213,7 +14268,7 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -14224,7 +14279,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: ""
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BWSR_RE_IND02_FB"
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -14459,7 +14514,7 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -14470,7 +14525,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: ""
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BWSR_RE_IND03_FB"
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -14705,7 +14760,7 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -14716,7 +14771,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: ""
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BWSR_RE_IND04_FB"
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -14951,7 +15006,7 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -14962,7 +15017,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: ""
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BWSR_RE_IND05_FB"
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
@@ -15197,7 +15252,7 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: KeyValueConverter1
+            - Name: KeyValueConverter2
               Type: ValueMapConverter
               Children:
               - Name: Source
@@ -15208,7 +15263,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: ""
+                  Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/BWSR_RE_IND06_FB"
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color

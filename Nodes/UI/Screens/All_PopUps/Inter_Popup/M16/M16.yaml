@@ -360,6 +360,22 @@ Children:
               Value: 0
       - Name: Button4
         Type: Button
+        Children:
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 130.0
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 517.0
     - Name: Rectangle5
       Type: Rectangle
       Children:
@@ -912,7 +928,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101M02_FP/RDY"
+                Value: ""
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -933,7 +949,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/BECL/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_231ST101M02_FP/OVL"
+                Value: ""
       - Name: Rectangle4
         Type: Rectangle
         Children:

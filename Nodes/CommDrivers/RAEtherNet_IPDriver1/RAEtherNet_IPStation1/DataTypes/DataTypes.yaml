@@ -11318,6 +11318,97 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
+  Name: SCALE
+  Id: g=fb42dc9b982220f6ac4ab069447cb1b5
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "SCALE",
+    "DataType": {
+     "IdType": 2,
+     "Id": "fb42dc9b982220f6ac4ab069447cb1b5",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "InRawMax",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "InRawMin",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "InEUMax",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "InEUMin",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Limiting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Out",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "MaxAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MinAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "InstructFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InRawRangeInv",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"SCALE"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
   Name: Sim_AI
   Id: g=338572e17902f21b0687bb9d732d6a82
   Supertype: Structure
