@@ -395,6 +395,18 @@ Children:
               DataType: DynamicLinkMode
               ModellingRule: Optional
               Value: 2
+          - Name: StringFormatter2
+            Type: StringFormatter
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "#####"
       - Name: Label3
         Type: TextBox
         Children:
